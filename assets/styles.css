@@ -267,6 +267,7 @@ h3 {
 
 .menu-demo {
   align-self: end;
+  padding-top: 28px;
 }
 
 .mock-menubar {
@@ -306,13 +307,55 @@ h3 {
   font-size: 0;
 }
 
-.mock-countdown {
-  white-space: nowrap;
-  font-weight: 760;
+.mock-countdown-anchor {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
 .mock-countdown {
   color: var(--red);
+  white-space: nowrap;
+  font-weight: 760;
+}
+
+.mock-countdown-callout {
+  position: absolute;
+  right: -13px;
+  bottom: calc(100% + 21px);
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: rgba(18, 22, 31, 0.94);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 820;
+  line-height: 1;
+  white-space: nowrap;
+  box-shadow: 0 10px 22px rgba(18, 22, 31, 0.18);
+}
+
+.mock-countdown-callout::before {
+  content: "";
+  position: absolute;
+  right: 24px;
+  top: calc(100% - 1px);
+  width: 2px;
+  height: 17px;
+  background: var(--red);
+  transform: rotate(16deg);
+  transform-origin: top center;
+}
+
+.mock-countdown-callout::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: calc(100% + 11px);
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid var(--red);
+  border-bottom: 2px solid var(--red);
+  transform: rotate(45deg);
 }
 
 .mock-status-icon {
@@ -764,12 +807,19 @@ h3 {
 
   .mock-menubar {
     gap: 7px;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .mock-finder,
   .mock-datetime {
     font-size: 0.78rem;
+  }
+
+  .mock-countdown-callout {
+    right: -22px;
+    bottom: calc(100% + 18px);
+    padding: 4px 7px;
+    font-size: 0.62rem;
   }
 
   .mock-popover {
