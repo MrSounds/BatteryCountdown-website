@@ -322,6 +322,31 @@ h3 {
   align-items: center;
 }
 
+.mock-countdown-anchor::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 14px);
+  width: 4px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--red);
+  transform: translateX(-50%);
+}
+
+.mock-countdown-anchor::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 5px);
+  width: 14px;
+  height: 14px;
+  border-right: 4px solid var(--red);
+  border-bottom: 4px solid var(--red);
+  border-radius: 2px;
+  transform: translateX(-50%) rotate(45deg);
+}
+
 .mock-countdown {
   color: var(--red);
   white-space: nowrap;
@@ -330,8 +355,9 @@ h3 {
 
 .mock-countdown-callout {
   position: absolute;
-  right: -13px;
-  bottom: calc(100% + 21px);
+  right: 50%;
+  bottom: calc(100% + 38px);
+  transform: translateX(50%);
   padding: 5px 8px;
   border-radius: 6px;
   background: rgba(18, 22, 31, 0.94);
@@ -341,17 +367,6 @@ h3 {
   line-height: 1;
   white-space: nowrap;
   box-shadow: 0 10px 22px rgba(18, 22, 31, 0.18);
-}
-
-.mock-countdown-callout::before {
-  content: "\2193";
-  position: absolute;
-  right: 32px;
-  top: calc(100% + 1px);
-  color: var(--red);
-  font-size: 2.1rem;
-  font-weight: 900;
-  line-height: 1;
 }
 
 .mock-popover {
@@ -836,15 +851,24 @@ h3 {
   }
 
   .mock-countdown-callout {
-    right: -22px;
-    bottom: calc(100% + 18px);
+    right: 50%;
+    bottom: calc(100% + 32px);
     padding: 4px 7px;
     font-size: 0.62rem;
   }
 
-  .mock-countdown-callout::before {
-    right: 28px;
-    font-size: 1.8rem;
+  .mock-countdown-anchor::before {
+    bottom: calc(100% + 13px);
+    width: 3px;
+    height: 14px;
+  }
+
+  .mock-countdown-anchor::after {
+    bottom: calc(100% + 6px);
+    width: 11px;
+    height: 11px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
   }
 
   .mock-popover {
