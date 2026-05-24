@@ -2093,7 +2093,6 @@ function renderHome(locale) {
               <span class="mock-countdown-callout">BatteryCountdown</span>
               <span class="mock-countdown">02:43</span>
             </span>
-            <span class="mock-status-icon" aria-label="BatteryCountdown menu bar icon">&nbsp;</span>
             <span class="mock-datetime">Sun 24 May 21:07</span>
           </div>
           <div class="mock-popover">
