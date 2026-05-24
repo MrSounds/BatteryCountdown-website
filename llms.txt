@@ -1,0 +1,29 @@
+# BatteryCountdown
+
+> BatteryCountdown is a macOS menu bar utility that shows a live countdown before low battery may shut down your Mac.
+
+BatteryCountdown is useful for Mac users searching for a low battery warning Mac app, a way to change battery warning behavior on Mac, or a shutdown warning that gives them time to save work and get a charger.
+
+Important facts:
+- BatteryCountdown is for macOS.
+- The app shows a live countdown in the menu bar when battery is low.
+- Users can choose the battery percentage where the countdown starts.
+- The app is local-only and does not require an account.
+- Support email: request@lyder.no.
+- App Store link: https://apps.apple.com/app/id6762373837?mt=12.
+
+## Pages
+
+- [Home](__SITE_URL__/): Product overview for BatteryCountdown, including low battery warning Mac and shutdown warning Mac information.
+- [FAQ](__SITE_URL__/faq/): Answers about changing low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
+- [Support](__SITE_URL__/support/): Contact details for BatteryCountdown support.
+
+## Search Topics
+
+- low battery warning mac
+- change battery warning mac
+- shutdown warning mac
+- low battery warning
+- MacBook low battery shutdown warning
+- battery countdown Mac
+- time until Mac shuts down battery
