@@ -257,6 +257,15 @@ h3 {
   background: #2a303b;
 }
 
+.button-light {
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--ink);
+}
+
+.button-light:hover {
+  background: #fff;
+}
+
 .text-link {
   display: inline-flex;
   color: var(--blue);
@@ -544,10 +553,65 @@ h3 {
   align-items: center;
 }
 
+.charger-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
 .charger-image {
   justify-self: end;
   max-height: 250px;
   object-fit: contain;
+}
+
+.demo-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.demo-video-wrap {
+  padding: 10px;
+  border: 1px solid rgba(18, 22, 31, 0.1);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 18px 44px rgba(18, 22, 31, 0.1);
+}
+
+.demo-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 720 / 404;
+  border-radius: 6px;
+  background: #101722;
+}
+
+.demo-details {
+  padding: 24px;
+  border-radius: 8px;
+  background: #e9f1ee;
+  border-left: 4px solid var(--green);
+}
+
+.demo-details h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.demo-details ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.demo-details li {
+  color: var(--muted);
+}
+
+.demo-details li + li {
+  margin-top: 12px;
 }
 
 .faq-preview .text-link {
@@ -801,7 +865,8 @@ h3 {
   .support-grid,
   .faq-mini,
   .split-section,
-  .charger-layout {
+  .charger-layout,
+  .demo-section {
     grid-template-columns: 1fr;
   }
 
@@ -851,6 +916,20 @@ h3 {
   .charger-image {
     justify-self: start;
     max-height: 190px;
+  }
+
+  .charger-actions {
+    flex-direction: column;
+    max-width: 340px;
+  }
+
+  .charger-actions .button {
+    width: 100%;
+  }
+
+  .demo-video-wrap,
+  .demo-details {
+    padding: 12px;
   }
 }
 

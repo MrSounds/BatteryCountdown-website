@@ -26,7 +26,7 @@ const locales = [
 ];
 
 const localeByCode = Object.fromEntries(locales.map((locale) => [locale.code, locale]));
-const pageKeys = ["home", "faq", "support", "guide"];
+const pageKeys = ["home", "faq", "support", "guide", "demo"];
 
 const t = {
   en: {
@@ -1618,6 +1618,244 @@ const t = {
 t["pt-br"] = t["pt-BR"];
 t["zh-hans"] = t["zh-Hans"];
 
+const demoContent = {
+  en: {
+    navLabel: "Demo",
+    title: "Charger Run Mode Demo | BatteryCountdown",
+    description: "Watch a quick BatteryCountdown Charger Run Mode demo for Mac and see how the low battery shutdown warning appears.",
+    eyebrow: "Charger Run Mode demo",
+    h1: "See Charger Run Mode in action",
+    lead: "This short, web-optimized demo shows how Charger Run Mode makes the low battery shutdown warning harder to miss when your Mac is running out of time.",
+    watchCta: "Watch Charger Run Mode demo",
+    appCta: "Download BatteryCountdown",
+    detailsTitle: "What the demo shows",
+    details: [
+      "A visible Charger Run Mode warning when low battery is close to shutdown.",
+      "The BatteryCountdown menu bar timer staying easy to spot.",
+      "A clearer moment to save work and plug in before the Mac powers off."
+    ],
+    finalTitle: "Want the same warning on your Mac?",
+    finalBody: "Install BatteryCountdown from the Mac App Store and use Charger Run Mode when a quiet menu bar timer is not enough.",
+    backHome: "Back to home"
+  },
+  de: {
+    navLabel: "Demo",
+    title: "Charger Run Mode Demo | BatteryCountdown",
+    description: "Sieh dir eine kurze BatteryCountdown Charger Run Mode Demo fuer Mac an und erkenne die Warnung vor dem Akku-Shutdown.",
+    eyebrow: "Charger Run Mode Demo",
+    h1: "Charger Run Mode in Aktion",
+    lead: "Diese kurze, weboptimierte Demo zeigt, wie Charger Run Mode die Warnung vor dem Herunterfahren bei niedrigem Akku deutlich sichtbarer macht.",
+    watchCta: "Charger Run Mode Demo ansehen",
+    appCta: "BatteryCountdown laden",
+    detailsTitle: "Was die Demo zeigt",
+    details: [
+      "Eine sichtbare Charger Run Mode Warnung kurz vor dem Akku-Shutdown.",
+      "Der BatteryCountdown Timer bleibt in der Menueleiste leicht erkennbar.",
+      "Ein klarer Moment, um Arbeit zu sichern und den Mac anzuschliessen."
+    ],
+    finalTitle: "Willst du dieselbe Warnung auf deinem Mac?",
+    finalBody: "Installiere BatteryCountdown aus dem Mac App Store und nutze Charger Run Mode, wenn ein ruhiger Menueleisten-Timer nicht reicht.",
+    backHome: "Zur Startseite"
+  },
+  es: {
+    navLabel: "Demo",
+    title: "Demo de Charger Run Mode | BatteryCountdown",
+    description: "Mira una demo rápida de Charger Run Mode de BatteryCountdown para Mac y cómo aparece el aviso de apagado por batería baja.",
+    eyebrow: "Demo de Charger Run Mode",
+    h1: "Charger Run Mode en acción",
+    lead: "Esta demo breve y optimizada para web muestra cómo Charger Run Mode hace que el aviso de apagado por batería baja sea más difícil de ignorar.",
+    watchCta: "Ver demo de Charger Run Mode",
+    appCta: "Descargar BatteryCountdown",
+    detailsTitle: "Qué muestra la demo",
+    details: [
+      "Un aviso visible de Charger Run Mode cuando la batería baja se acerca al apagado.",
+      "El temporizador de BatteryCountdown visible en la barra de menús.",
+      "Un momento claro para guardar el trabajo y conectar el cargador."
+    ],
+    finalTitle: "¿Quieres el mismo aviso en tu Mac?",
+    finalBody: "Instala BatteryCountdown desde el Mac App Store y usa Charger Run Mode cuando un temporizador discreto no sea suficiente.",
+    backHome: "Volver al inicio"
+  },
+  fr: {
+    navLabel: "Démo",
+    title: "Démo Charger Run Mode | BatteryCountdown",
+    description: "Regardez une courte démo de Charger Run Mode pour Mac et voyez l’alerte d’extinction batterie faible.",
+    eyebrow: "Démo Charger Run Mode",
+    h1: "Charger Run Mode en action",
+    lead: "Cette courte démo optimisée pour le web montre comment Charger Run Mode rend l’alerte d’extinction batterie faible beaucoup plus visible.",
+    watchCta: "Voir la démo Charger Run Mode",
+    appCta: "Télécharger BatteryCountdown",
+    detailsTitle: "Ce que montre la démo",
+    details: [
+      "Une alerte Charger Run Mode visible quand le Mac approche de l’extinction.",
+      "Le minuteur BatteryCountdown reste facile à repérer dans la barre des menus.",
+      "Un moment clair pour enregistrer le travail et brancher le chargeur."
+    ],
+    finalTitle: "Vous voulez la même alerte sur votre Mac ?",
+    finalBody: "Installez BatteryCountdown depuis le Mac App Store et utilisez Charger Run Mode quand un minuteur discret ne suffit pas.",
+    backHome: "Retour a l'accueil"
+  },
+  hi: {
+    navLabel: "Demo",
+    title: "Charger Run Mode Demo | BatteryCountdown",
+    description: "Mac के लिए BatteryCountdown Charger Run Mode demo देखें और low battery shutdown warning कैसे दिखती है समझें.",
+    eyebrow: "Charger Run Mode demo",
+    h1: "Charger Run Mode को action में देखें",
+    lead: "यह छोटी web-optimized demo दिखाती है कि Charger Run Mode low battery shutdown warning को ज्यादा visible कैसे बनाता है.",
+    watchCta: "Charger Run Mode demo देखें",
+    appCta: "BatteryCountdown डाउनलोड करें",
+    detailsTitle: "Demo में क्या दिखता है",
+    details: [
+      "Shutdown के करीब low battery पर visible Charger Run Mode warning.",
+      "Menu bar में BatteryCountdown timer साफ दिखता है.",
+      "काम save करने और charger लगाने के लिए clear moment."
+    ],
+    finalTitle: "अपने Mac पर यही warning चाहिए?",
+    finalBody: "Mac App Store से BatteryCountdown install करें और जब quiet menu bar timer काफी न हो तब Charger Run Mode use करें.",
+    backHome: "Home पर वापस"
+  },
+  it: {
+    navLabel: "Demo",
+    title: "Demo Charger Run Mode | BatteryCountdown",
+    description: "Guarda una breve demo di Charger Run Mode per Mac e vedi l’avviso di spegnimento per batteria scarica.",
+    eyebrow: "Demo Charger Run Mode",
+    h1: "Charger Run Mode in azione",
+    lead: "Questa breve demo ottimizzata per il web mostra come Charger Run Mode rende più evidente l’avviso di spegnimento per batteria scarica.",
+    watchCta: "Guarda la demo Charger Run Mode",
+    appCta: "Scarica BatteryCountdown",
+    detailsTitle: "Cosa mostra la demo",
+    details: [
+      "Un avviso Charger Run Mode visibile quando il Mac è vicino allo spegnimento.",
+      "Il timer BatteryCountdown resta facile da notare nella barra dei menu.",
+      "Un momento chiaro per salvare il lavoro e collegare il caricatore."
+    ],
+    finalTitle: "Vuoi lo stesso avviso sul tuo Mac?",
+    finalBody: "Installa BatteryCountdown dal Mac App Store e usa Charger Run Mode quando un timer discreto non basta.",
+    backHome: "Torna alla home"
+  },
+  ja: {
+    navLabel: "デモ",
+    title: "Charger Run Modeデモ | BatteryCountdown",
+    description: "Mac向けBatteryCountdownのCharger Run Modeデモを見て、低バッテリー終了警告の表示を確認できます。",
+    eyebrow: "Charger Run Modeデモ",
+    h1: "Charger Run Modeの動作を見る",
+    lead: "この短いWeb最適化デモでは、Charger Run Modeが低バッテリー終了警告をより見逃しにくくする様子を確認できます。",
+    watchCta: "Charger Run Modeデモを見る",
+    appCta: "BatteryCountdownをダウンロード",
+    detailsTitle: "デモで分かること",
+    details: [
+      "終了が近い低バッテリー時の目立つCharger Run Mode警告。",
+      "メニューバーのBatteryCountdownタイマーが見つけやすいこと。",
+      "作業を保存して充電器を接続するタイミング。"
+    ],
+    finalTitle: "同じ警告をMacで使いますか？",
+    finalBody: "Mac App StoreからBatteryCountdownをインストールし、静かなメニューバータイマーだけでは足りない時にCharger Run Modeを使えます。",
+    backHome: "ホームに戻る"
+  },
+  ko: {
+    navLabel: "데모",
+    title: "Charger Run Mode 데모 | BatteryCountdown",
+    description: "Mac용 BatteryCountdown Charger Run Mode 데모를 보고 배터리 부족 종료 경고가 어떻게 나타나는지 확인하세요.",
+    eyebrow: "Charger Run Mode 데모",
+    h1: "Charger Run Mode 작동 보기",
+    lead: "이 짧은 웹 최적화 데모는 Charger Run Mode가 배터리 부족 종료 경고를 더 잘 보이게 만드는 모습을 보여줍니다.",
+    watchCta: "Charger Run Mode 데모 보기",
+    appCta: "BatteryCountdown 다운로드",
+    detailsTitle: "데모에서 보이는 것",
+    details: [
+      "배터리 부족 종료가 가까울 때 나타나는 눈에 띄는 Charger Run Mode 경고.",
+      "메뉴 막대의 BatteryCountdown 타이머가 쉽게 보입니다.",
+      "작업을 저장하고 충전기를 연결할 명확한 순간."
+    ],
+    finalTitle: "Mac에서 같은 경고를 쓰고 싶나요?",
+    finalBody: "Mac App Store에서 BatteryCountdown을 설치하고 조용한 메뉴 막대 타이머만으로 부족할 때 Charger Run Mode를 사용하세요.",
+    backHome: "홈으로 돌아가기"
+  },
+  nb: {
+    navLabel: "Demo",
+    title: "Charger Run Mode demo | BatteryCountdown",
+    description: "Se en kort BatteryCountdown Charger Run Mode demo for Mac og hvordan varselet ved lavt batteri ser ut.",
+    eyebrow: "Charger Run Mode demo",
+    h1: "Se Charger Run Mode i bruk",
+    lead: "Denne korte, weboptimaliserte demoen viser hvordan Charger Run Mode gjør varselet før lavt batteri-avslutning vanskeligere å overse.",
+    watchCta: "Se Charger Run Mode-demo",
+    appCta: "Last ned BatteryCountdown",
+    detailsTitle: "Dette viser demoen",
+    details: [
+      "Et tydelig Charger Run Mode-varsel når Macen nærmer seg avslutning.",
+      "BatteryCountdown-timeren er lett å se i menylinjen.",
+      "Et klart tidspunkt for å lagre arbeidet og plugge inn laderen."
+    ],
+    finalTitle: "Vil du ha samme varsel på Macen?",
+    finalBody: "Installer BatteryCountdown fra Mac App Store og bruk Charger Run Mode når en rolig menylinje-timer ikke er nok.",
+    backHome: "Til forsiden"
+  },
+  "pt-BR": {
+    navLabel: "Demo",
+    title: "Demo do Charger Run Mode | BatteryCountdown",
+    description: "Veja uma demo rápida do Charger Run Mode do BatteryCountdown para Mac e como aparece o aviso de desligamento por bateria fraca.",
+    eyebrow: "Demo do Charger Run Mode",
+    h1: "Veja o Charger Run Mode em ação",
+    lead: "Esta demo curta e otimizada para web mostra como Charger Run Mode deixa o aviso de desligamento por bateria fraca mais difícil de ignorar.",
+    watchCta: "Ver demo do Charger Run Mode",
+    appCta: "Baixar BatteryCountdown",
+    detailsTitle: "O que a demo mostra",
+    details: [
+      "Um aviso visível de Charger Run Mode quando o Mac está perto de desligar.",
+      "O timer do BatteryCountdown fica fácil de notar na barra de menus.",
+      "Um momento claro para salvar o trabalho e conectar o carregador."
+    ],
+    finalTitle: "Quer o mesmo aviso no seu Mac?",
+    finalBody: "Instale BatteryCountdown pela Mac App Store e use Charger Run Mode quando um timer discreto não for suficiente.",
+    backHome: "Voltar ao inicio"
+  },
+  ru: {
+    navLabel: "Демо",
+    title: "Демо Charger Run Mode | BatteryCountdown",
+    description: "Посмотрите короткое демо Charger Run Mode для Mac и предупреждение о выключении из-за низкого заряда.",
+    eyebrow: "Демо Charger Run Mode",
+    h1: "Charger Run Mode в действии",
+    lead: "Это короткое веб-оптимизированное демо показывает, как Charger Run Mode делает предупреждение о выключении из-за низкого заряда заметнее.",
+    watchCta: "Смотреть демо Charger Run Mode",
+    appCta: "Скачать BatteryCountdown",
+    detailsTitle: "Что показывает демо",
+    details: [
+      "Заметное предупреждение Charger Run Mode перед выключением Mac.",
+      "Таймер BatteryCountdown легко увидеть в строке меню.",
+      "Понятный момент, чтобы сохранить работу и подключить зарядку."
+    ],
+    finalTitle: "Хотите такое предупреждение на Mac?",
+    finalBody: "Установите BatteryCountdown из Mac App Store и используйте Charger Run Mode, когда тихого таймера в строке меню недостаточно.",
+    backHome: "На главную"
+  },
+  "zh-Hans": {
+    navLabel: "演示",
+    title: "Charger Run Mode 演示 | BatteryCountdown",
+    description: "观看 Mac 版 BatteryCountdown Charger Run Mode 快速演示，了解低电量关机警告如何出现。",
+    eyebrow: "Charger Run Mode 演示",
+    h1: "查看 Charger Run Mode 的实际效果",
+    lead: "这段经过网页优化的短演示展示 Charger Run Mode 如何让低电量关机警告更醒目。",
+    watchCta: "观看 Charger Run Mode 演示",
+    appCta: "下载 BatteryCountdown",
+    detailsTitle: "演示内容",
+    details: [
+      "当 Mac 接近低电量关机时，出现醒目的 Charger Run Mode 警告。",
+      "BatteryCountdown 菜单栏计时器保持易于发现。",
+      "给你一个明确时刻来保存工作并连接充电器。"
+    ],
+    finalTitle: "想在 Mac 上使用同样的警告？",
+    finalBody: "从 Mac App Store 安装 BatteryCountdown，在安静的菜单栏计时器不够醒目时使用 Charger Run Mode。",
+    backHome: "返回首页"
+  }
+};
+
+demoContent["pt-br"] = demoContent["pt-BR"];
+demoContent["zh-hans"] = demoContent["zh-Hans"];
+
+function demoCopy(locale) {
+  return demoContent[locale.code] || demoContent[locale.prefix] || demoContent.en;
+}
+
 function h(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -1636,6 +1874,7 @@ function pagePath(locale, pageKey) {
   if (pageKey === "faq") return `${root}/faq/`;
   if (pageKey === "support") return `${root}/support/`;
   if (pageKey === "guide") return `${root}/guides/${locale.guideSlug}/`;
+  if (pageKey === "demo") return `${root}/demo/charger-run-mode/`;
   throw new Error(`Unknown page key ${pageKey}`);
 }
 
@@ -1707,6 +1946,7 @@ function footer(locale, pageKey) {
           </div>
         </div>
         <div class="footer-links">
+          <a href="${h(pagePath(locale, "demo"))}">${h(demoCopy(locale).navLabel)}</a>
           <a href="${h(pagePath(locale, "guide"))}">${h(c.nav.guide)}</a>
           <a href="${h(pagePath(locale, "faq"))}">${h(c.nav.faq)}</a>
           <a href="${h(pagePath(locale, "support"))}">${h(c.nav.support)}</a>
@@ -1829,6 +2069,7 @@ function breadcrumbGraph(locale, pageKey, pageName) {
 function renderHome(locale) {
   const c = t[locale.code] || t.en;
   const page = c.home;
+  const demo = demoCopy(locale);
   const body = `<main id="main">
       <section class="hero hero-home" aria-labelledby="hero-title">
         <div class="hero-shade"></div>
@@ -1907,7 +2148,10 @@ function renderHome(locale) {
             <p class="eyebrow">${h(page.chargerEyebrow)}</p>
             <h2 id="charger-title">${h(page.chargerTitle)}</h2>
             <p>${h(page.chargerBody)}</p>
-            <a class="button button-dark" href="${APP_STORE_URL}">${h(page.chargerCta)}</a>
+            <div class="charger-actions">
+              <a class="button button-dark" href="${APP_STORE_URL}">${h(page.chargerCta)}</a>
+              <a class="button button-light" href="${h(pagePath(locale, "demo"))}">${h(demo.watchCta)}</a>
+            </div>
           </div>
           <img class="charger-image" src="/assets/charger.webp" alt="Charger Run Mode charger illustration" width="602" height="415">
         </div>
@@ -2057,6 +2301,74 @@ function renderSupport(locale) {
   return layout(locale, "support", { title: page.title, description: page.description, ogTitle: page.title, ogDescription: page.ogDescription }, body, graph);
 }
 
+function renderDemo(locale) {
+  const page = demoCopy(locale);
+  const body = `<main id="main" class="subpage">
+      <section class="page-hero" aria-labelledby="demo-title">
+        <div class="section-shell narrow">
+          <p class="eyebrow">${h(page.eyebrow)}</p>
+          <h1 id="demo-title">${h(page.h1)}</h1>
+          <p class="lead">${h(page.lead)}</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="${APP_STORE_URL}">${h(page.appCta)}</a>
+            <a class="button button-secondary" href="${h(pagePath(locale, "home"))}">${h(page.backHome)}</a>
+          </div>
+        </div>
+      </section>
+      <section class="section-shell demo-section" aria-labelledby="demo-video-title">
+        <div class="demo-video-wrap">
+          <video class="demo-video" controls autoplay muted loop playsinline preload="metadata" poster="/assets/charger-run-mode-demo-poster.webp" aria-label="${h(page.title)}">
+            <source src="/assets/charger-run-mode-demo.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="demo-details">
+          <p class="eyebrow">${h(page.eyebrow)}</p>
+          <h2 id="demo-video-title">${h(page.detailsTitle)}</h2>
+          <ul>
+            ${page.details.map((item) => `<li>${h(item)}</li>`).join("\n            ")}
+          </ul>
+        </div>
+      </section>
+      <section class="final-cta" aria-labelledby="demo-final-title">
+        <div class="section-shell">
+          <p class="eyebrow">${h(page.eyebrow)}</p>
+          <h2 id="demo-final-title">${h(page.finalTitle)}</h2>
+          <p>${h(page.finalBody)}</p>
+          <a class="button button-primary" href="${APP_STORE_URL}">${h(page.appCta)}</a>
+        </div>
+      </section>
+    </main>`;
+  const graph = [
+    {
+      "@type": "VideoObject",
+      "@id": `${abs(pagePath(locale, "demo"))}#video`,
+      "name": page.title,
+      "description": page.description,
+      "thumbnailUrl": `${SITE_URL}/assets/charger-run-mode-demo-poster.webp`,
+      "contentUrl": `${SITE_URL}/assets/charger-run-mode-demo.mp4`,
+      "uploadDate": "2026-05-24",
+      "duration": "PT18S",
+      "inLanguage": locale.hreflang
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${abs(pagePath(locale, "demo"))}#webpage`,
+      "url": abs(pagePath(locale, "demo")),
+      "name": page.title,
+      "description": page.description,
+      "isPartOf": { "@id": `${SITE_URL}/#website` },
+      "about": { "@id": `${SITE_URL}/#app` },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": `${SITE_URL}/assets/charger-run-mode-demo-poster.webp`
+      },
+      "inLanguage": locale.hreflang
+    },
+    breadcrumbGraph(locale, "demo", page.navLabel)
+  ];
+  return layout(locale, "demo", { title: page.title, description: page.description, ogType: "video.other", ogDescription: page.description }, body, graph);
+}
+
 function renderGuide(locale) {
   const c = t[locale.code] || t.en;
   const page = c.guide;
@@ -2166,6 +2478,7 @@ function renderPage(locale, pageKey) {
   if (pageKey === "faq") return renderFaq(locale);
   if (pageKey === "support") return renderSupport(locale);
   if (pageKey === "guide") return renderGuide(locale);
+  if (pageKey === "demo") return renderDemo(locale);
   throw new Error(`Unknown page ${pageKey}`);
 }
 
@@ -2200,6 +2513,7 @@ ${entries.join("\n")}
 function renderLlms() {
   const languageRows = locales.map((locale) => `- ${locale.name} (${locale.hreflang}): ${abs(pagePath(locale, "home"))}`).join("\n");
   const guideRows = locales.map((locale) => `- ${locale.name}: ${abs(pagePath(locale, "guide"))}`).join("\n");
+  const demoRows = locales.map((locale) => `- ${locale.name}: ${abs(pagePath(locale, "demo"))}`).join("\n");
   return `# BatteryCountdown
 
 > BatteryCountdown is a macOS menu bar utility that shows a live countdown before low battery may shut down your Mac.
@@ -2224,10 +2538,15 @@ ${languageRows}
 - FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - Support pages: contact details for BatteryCountdown support.
 - Guide pages: answer-first guide explaining whether users can change the low battery warning percentage on Mac and how BatteryCountdown adds a custom menu bar countdown.
+- Demo pages: short Charger Run Mode video demo showing the visible low battery shutdown warning.
 
 ## Main Guide URLs
 
 ${guideRows}
+
+## Charger Run Mode Demo URLs
+
+${demoRows}
 
 ## Search Topics
 
@@ -2238,6 +2557,7 @@ ${guideRows}
 - MacBook low battery shutdown warning
 - battery countdown Mac
 - time until Mac shuts down battery
+- Charger Run Mode demo
 `;
 }
 
@@ -2267,6 +2587,7 @@ Each locale includes:
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac
+- Demo: Charger Run Mode video demo
 
 ## Generate
 

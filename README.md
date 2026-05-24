@@ -15,6 +15,7 @@ Each locale includes:
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac
+- Demo: Charger Run Mode video demo
 
 ## Generate
 

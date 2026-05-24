@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const EXPECTED_PAGES = 48;
+const EXPECTED_PAGES = 60;
 const EXPECTED_HREFLANGS = 13;
 
 function fail(message) {
@@ -62,7 +62,7 @@ function validateHtml(filePath, allPages) {
 function validateSitemap() {
   const sitemapPath = path.join(ROOT, "sitemap.xml");
   const xml = fs.readFileSync(sitemapPath, "utf8");
-  if (count(xml, /<url>/g) !== EXPECTED_PAGES) fail("sitemap.xml: expected 48 url entries");
+  if (count(xml, /<url>/g) !== EXPECTED_PAGES) fail(`sitemap.xml: expected ${EXPECTED_PAGES} url entries`);
   if (count(xml, /<xhtml:link /g) !== EXPECTED_PAGES * EXPECTED_HREFLANGS) {
     fail("sitemap.xml: expected complete hreflang alternates");
   }

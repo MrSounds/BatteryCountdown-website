@@ -816,4 +816,208 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
+  <url>
+    <loc>__SITE_URL__/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/de/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/es/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/fr/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/hi/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/it/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/ja/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/ko/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/nb/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/pt-br/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/ru/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
+  <url>
+    <loc>__SITE_URL__/zh-hans/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <lastmod>2026-05-24</lastmod>
+  </url>
 </urlset>
