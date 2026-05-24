@@ -2316,7 +2316,7 @@ function renderDemo(locale) {
       </section>
       <section class="section-shell demo-section" aria-labelledby="demo-video-title">
         <div class="demo-video-wrap">
-          <video class="demo-video" controls autoplay muted loop playsinline preload="metadata" poster="/assets/charger-run-mode-demo-poster.webp" aria-label="${h(page.title)}">
+          <video class="demo-video" controls playsinline preload="metadata" poster="/assets/charger-run-mode-demo-poster.webp" aria-label="${h(page.title)}">
             <source src="/assets/charger-run-mode-demo.mp4" type="video/mp4">
           </video>
         </div>
