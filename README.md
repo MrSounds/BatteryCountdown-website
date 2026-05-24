@@ -25,15 +25,13 @@ npm run generate
 
 This rebuilds all localized HTML pages, `sitemap.xml`, `robots.txt`, and `llms.txt`.
 
-## Before Production Deploy
+## Production URL
 
-Replace the `__SITE_URL__` placeholder everywhere with the final production origin, for example:
+Generated canonical URLs, hreflang links, sitemap entries, Open Graph metadata, and JSON-LD use:
 
 ```text
-https://batterycountdown.app
+https://batterycountdown.com
 ```
-
-Files intentionally use the placeholder in generated canonical URLs, hreflang links, sitemap entries, Open Graph metadata, and JSON-LD.
 
 ## Local Preview
 

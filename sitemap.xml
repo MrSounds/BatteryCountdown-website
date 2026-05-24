@@ -1,1023 +1,1023 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>__SITE_URL__/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/de/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/hi/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/it/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ko/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/nb/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/nb/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/pt-br/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/pt-br/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/zh-hans/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/" />
+    <loc>https://batterycountdown.com/zh-hans/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/de/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/de/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/es/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/es/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/fr/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/fr/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/hi/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/hi/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/it/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/it/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ja/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/ja/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ko/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/ko/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/nb/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/nb/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/pt-br/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/pt-br/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ru/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/ru/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/zh-hans/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/faq/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/faq/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/faq/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/faq/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/faq/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/faq/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/faq/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/faq/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/faq/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/faq/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/faq/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/faq/" />
+    <loc>https://batterycountdown.com/zh-hans/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/faq/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/faq/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/faq/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/faq/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/de/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/de/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/es/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/es/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/fr/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/fr/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/hi/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/hi/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/it/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/it/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ja/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/ja/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ko/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/ko/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/nb/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/nb/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/pt-br/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/pt-br/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ru/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/ru/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/zh-hans/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/support/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/support/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/support/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/support/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/support/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/support/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/support/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/support/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/support/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/support/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/support/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/support/" />
+    <loc>https://batterycountdown.com/zh-hans/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/support/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/support/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/support/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/support/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/guides/change-low-battery-warning-percentage-mac/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/guides/change-low-battery-warning-percentage-mac/" />
+    <loc>https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/guides/cambiar-porcentaje-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/guides/changer-pourcentage-alerte-batterie-mac/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/guides/cambiare-percentuale-avviso-batteria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-prosent-mac/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/de/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/de/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/es/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/es/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/fr/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/fr/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/hi/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/hi/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/it/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/it/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ja/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/ja/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ko/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/ko/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/nb/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/nb/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/pt-br/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/pt-br/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/ru/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/ru/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
-    <loc>__SITE_URL__/zh-hans/demo/charger-run-mode/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="__SITE_URL__/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="de" href="__SITE_URL__/de/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="es" href="__SITE_URL__/es/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="__SITE_URL__/fr/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="hi" href="__SITE_URL__/hi/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="it" href="__SITE_URL__/it/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="__SITE_URL__/ko/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="nb" href="__SITE_URL__/nb/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="__SITE_URL__/pt-br/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="__SITE_URL__/ru/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="__SITE_URL__/zh-hans/demo/charger-run-mode/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="__SITE_URL__/demo/charger-run-mode/" />
+    <loc>https://batterycountdown.com/zh-hans/demo/charger-run-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://batterycountdown.com/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://batterycountdown.com/de/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://batterycountdown.com/es/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://batterycountdown.com/fr/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://batterycountdown.com/hi/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://batterycountdown.com/it/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://batterycountdown.com/ja/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://batterycountdown.com/ko/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://batterycountdown.com/nb/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://batterycountdown.com/pt-br/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://batterycountdown.com/ru/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://batterycountdown.com/zh-hans/demo/charger-run-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://batterycountdown.com/demo/charger-run-mode/" />
     <lastmod>2026-05-24</lastmod>
   </url>
 </urlset>

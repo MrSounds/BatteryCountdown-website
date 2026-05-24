@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const SITE_URL = "__SITE_URL__";
+const SITE_URL = "https://batterycountdown.com";
 const APP_NAME = "BatteryCountdown";
 const APP_STORE_URL = "https://apps.apple.com/app/id6762373837?mt=12";
 const SUPPORT_EMAIL = "request@lyder.no";
@@ -2596,15 +2596,13 @@ npm run generate
 
 This rebuilds all localized HTML pages, \`sitemap.xml\`, \`robots.txt\`, and \`llms.txt\`.
 
-## Before Production Deploy
+## Production URL
 
-Replace the \`__SITE_URL__\` placeholder everywhere with the final production origin, for example:
+Generated canonical URLs, hreflang links, sitemap entries, Open Graph metadata, and JSON-LD use:
 
 \`\`\`text
-https://batterycountdown.app
+${SITE_URL}
 \`\`\`
-
-Files intentionally use the placeholder in generated canonical URLs, hreflang links, sitemap entries, Open Graph metadata, and JSON-LD.
 
 ## Local Preview
 
