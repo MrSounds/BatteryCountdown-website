@@ -12,12 +12,42 @@ Important facts:
 - Support email: request@lyder.no.
 - App Store link: https://apps.apple.com/app/id6762373837?mt=12.
 
-## Pages
+## Languages
 
-- [Home](__SITE_URL__/): Product overview for BatteryCountdown, including low battery warning Mac and shutdown warning Mac information.
-- [FAQ](__SITE_URL__/faq/): Answers about changing low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
-- [Support](__SITE_URL__/support/): Contact details for BatteryCountdown support.
-- [Guide: How to change the low battery warning percentage on Mac](__SITE_URL__/guides/change-low-battery-warning-percentage-mac/): Answer-first guide explaining that macOS does not expose a simple low battery warning percentage setting and that BatteryCountdown adds a custom menu bar countdown.
+- English (en): __SITE_URL__/
+- German (de): __SITE_URL__/de/
+- Spanish (es): __SITE_URL__/es/
+- French (fr): __SITE_URL__/fr/
+- Hindi (hi): __SITE_URL__/hi/
+- Italian (it): __SITE_URL__/it/
+- Japanese (ja): __SITE_URL__/ja/
+- Korean (ko): __SITE_URL__/ko/
+- Norwegian Bokmal (nb): __SITE_URL__/nb/
+- Portuguese Brazil (pt-BR): __SITE_URL__/pt-br/
+- Russian (ru): __SITE_URL__/ru/
+- Chinese Simplified (zh-Hans): __SITE_URL__/zh-hans/
+
+## Core Pages
+
+- Home pages: product overview for BatteryCountdown and low battery shutdown warning on Mac.
+- FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
+- Support pages: contact details for BatteryCountdown support.
+- Guide pages: answer-first guide explaining whether users can change the low battery warning percentage on Mac and how BatteryCountdown adds a custom menu bar countdown.
+
+## Main Guide URLs
+
+- English: __SITE_URL__/guides/change-low-battery-warning-percentage-mac/
+- German: __SITE_URL__/de/guides/mac-akku-warnung-prozent-aendern/
+- Spanish: __SITE_URL__/es/guides/cambiar-porcentaje-aviso-bateria-mac/
+- French: __SITE_URL__/fr/guides/changer-pourcentage-alerte-batterie-mac/
+- Hindi: __SITE_URL__/hi/guides/mac-low-battery-warning-percentage-change/
+- Italian: __SITE_URL__/it/guides/cambiare-percentuale-avviso-batteria-mac/
+- Japanese: __SITE_URL__/ja/guides/mac-low-battery-warning-percentage-change/
+- Korean: __SITE_URL__/ko/guides/mac-low-battery-warning-percentage-change/
+- Norwegian Bokmal: __SITE_URL__/nb/guides/endre-lavt-batteri-varsel-prosent-mac/
+- Portuguese Brazil: __SITE_URL__/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/
+- Russian: __SITE_URL__/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/
+- Chinese Simplified: __SITE_URL__/zh-hans/guides/mac-low-battery-warning-percentage-change/
 
 ## Search Topics
 

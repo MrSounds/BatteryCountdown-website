@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate-site.js",
+    "validate": "node scripts/validate-site.js"
+  }
+}

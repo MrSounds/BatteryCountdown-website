@@ -586,14 +586,18 @@ h3 {
 .site-footer {
   background: var(--ink);
   color: #fff;
-  padding: 28px 0;
+  padding: 34px 0;
 }
 
 .footer-shell {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
+}
+
+.footer-brand {
+  margin-bottom: 18px;
 }
 
 .footer-links a {
@@ -603,6 +607,43 @@ h3 {
 .footer-links a:hover {
   color: #fff;
   background: rgba(255, 255, 255, 0.08);
+}
+
+.language-switcher {
+  display: grid;
+  gap: 10px;
+  max-width: 760px;
+}
+
+.language-switcher > span {
+  color: #aeb8c3;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.language-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.language-links a {
+  color: #d8dee3;
+  padding: 6px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 680;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.language-links a:hover,
+.language-links a.current {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.28);
 }
 
 @media (max-width: 820px) {
@@ -615,6 +656,10 @@ h3 {
 
   .nav-links {
     width: 100%;
+  }
+
+  .footer-links {
+    align-items: flex-start;
   }
 
   .nav-links a {
