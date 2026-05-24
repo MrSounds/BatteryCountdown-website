@@ -6,6 +6,7 @@ Static website for BatteryCountdown, built for Hostinger GitHub deploy.
 
 - `/` - landing page
 - `/faq/` - FAQ and SEO/AIO answer page
+- `/guides/change-low-battery-warning-percentage-mac/` - evergreen SEO guide
 - `/support/` - support/contact page
 
 ## Before Production Deploy

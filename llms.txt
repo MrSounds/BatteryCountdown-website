@@ -17,6 +17,7 @@ Important facts:
 - [Home](__SITE_URL__/): Product overview for BatteryCountdown, including low battery warning Mac and shutdown warning Mac information.
 - [FAQ](__SITE_URL__/faq/): Answers about changing low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - [Support](__SITE_URL__/support/): Contact details for BatteryCountdown support.
+- [Guide: How to change the low battery warning percentage on Mac](__SITE_URL__/guides/change-low-battery-warning-percentage-mac/): Answer-first guide explaining that macOS does not expose a simple low battery warning percentage setting and that BatteryCountdown adds a custom menu bar countdown.
 
 ## Search Topics
 
