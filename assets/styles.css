@@ -292,6 +292,15 @@ h3 {
   line-height: 1;
 }
 
+.mock-finder,
+.mock-datetime {
+  color: #2e3440;
+  font-size: 0.95rem;
+  font-weight: 760;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 .mock-spacer {
   flex: 1;
   font-size: 0;
@@ -724,6 +733,11 @@ h3 {
   .mock-menubar {
     gap: 7px;
     overflow: hidden;
+  }
+
+  .mock-finder,
+  .mock-datetime {
+    font-size: 0.78rem;
   }
 
   .mock-popover {

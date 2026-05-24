@@ -1846,8 +1846,10 @@ function renderHome(locale) {
         <div class="menu-demo" aria-label="BatteryCountdown menu bar preview">
           <div class="mock-menubar">
             <span class="mock-apple" aria-label="Apple menu">&#63743;</span>
+            <span class="mock-finder">Finder</span>
             <span class="mock-spacer" aria-hidden="true">&nbsp;</span>
             <span class="mock-countdown">02:43</span>
+            <span class="mock-datetime">søn. 24. mai kl. 21:07</span>
           </div>
           <div class="mock-popover">
             <div class="mock-popover-head">
