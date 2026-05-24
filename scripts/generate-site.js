@@ -1673,7 +1673,7 @@ function nav(locale, pageKey) {
   return `<header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
         <a class="brand" href="${h(pagePath(locale, "home"))}" aria-label="BatteryCountdown home">
-          <img src="/assets/app-icon.png" alt="" width="34" height="34">
+          <img src="/assets/app-icon.webp" alt="" width="34" height="34">
           <span>BatteryCountdown</span>
         </a>
         <div class="nav-links">
@@ -1696,7 +1696,7 @@ function footer(locale, pageKey) {
       <div class="footer-shell">
         <div>
           <a class="brand footer-brand" href="${h(pagePath(locale, "home"))}">
-            <img src="/assets/app-icon.png" alt="" width="30" height="30">
+            <img src="/assets/app-icon.webp" alt="" width="30" height="30">
             <span>BatteryCountdown</span>
           </a>
           <div class="language-switcher" aria-label="${h(c.footer.language)}">
@@ -1851,7 +1851,7 @@ function renderHome(locale) {
           </div>
           <div class="mock-popover">
             <div class="mock-popover-head">
-              <img src="/assets/app-icon.png" alt="" width="44" height="44">
+              <img src="/assets/app-icon.webp" alt="" width="44" height="44">
               <div>
                 <strong>${h(page.popoverTitle)}</strong>
                 <span>${h(page.popoverSubtitle)}</span>
@@ -1903,7 +1903,7 @@ function renderHome(locale) {
             <p>${h(page.chargerBody)}</p>
             <a class="button button-dark" href="${APP_STORE_URL}">${h(page.chargerCta)}</a>
           </div>
-          <img class="charger-image" src="/assets/charger.png" alt="Charger Run Mode charger illustration" width="602" height="415">
+          <img class="charger-image" src="/assets/charger.webp" alt="Charger Run Mode charger illustration" width="602" height="415">
         </div>
       </section>
 
