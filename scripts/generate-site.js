@@ -1858,6 +1858,61 @@ const demoContent = {
   }
 };
 
+const demoCaptions = {
+  en: {
+    captionTitle: "Transcript",
+    caption: "BatteryCountdown shows the low battery countdown in the menu bar, then Charger Run Mode opens a visible warning so you can save your work and plug in."
+  },
+  de: {
+    captionTitle: "Transkript",
+    caption: "BatteryCountdown zeigt den Countdown bei niedrigem Akku in der Menueleiste. Danach oeffnet Charger Run Mode eine sichtbare Warnung, damit du speichern und den Mac anschliessen kannst."
+  },
+  es: {
+    captionTitle: "Transcripción",
+    caption: "BatteryCountdown muestra la cuenta atrás de batería baja en la barra de menús. Después, Charger Run Mode abre un aviso visible para que puedas guardar el trabajo y conectar el cargador."
+  },
+  fr: {
+    captionTitle: "Transcription",
+    caption: "BatteryCountdown affiche le compte à rebours batterie faible dans la barre des menus. Ensuite, Charger Run Mode ouvre une alerte visible pour enregistrer votre travail et brancher le chargeur."
+  },
+  hi: {
+    captionTitle: "Transcript",
+    caption: "BatteryCountdown menu bar में low battery countdown दिखाता है. फिर Charger Run Mode एक visible warning खोलता है ताकि आप काम save कर सकें और charger लगा सकें."
+  },
+  it: {
+    captionTitle: "Trascrizione",
+    caption: "BatteryCountdown mostra il countdown di batteria scarica nella barra dei menu. Poi Charger Run Mode apre un avviso visibile per salvare il lavoro e collegare il caricatore."
+  },
+  ja: {
+    captionTitle: "文字起こし",
+    caption: "BatteryCountdownがメニューバーに低バッテリーのカウントダウンを表示し、その後Charger Run Modeが目立つ警告を開いて、作業を保存して充電器を接続できるようにします。"
+  },
+  ko: {
+    captionTitle: "자막",
+    caption: "BatteryCountdown이 메뉴 막대에 배터리 부족 카운트다운을 표시한 뒤 Charger Run Mode가 눈에 띄는 경고를 열어 작업을 저장하고 충전기를 연결할 수 있게 합니다."
+  },
+  nb: {
+    captionTitle: "Tekstversjon",
+    caption: "BatteryCountdown viser lavt batteri-nedtellingen i menylinjen. Deretter åpner Charger Run Mode et tydelig varsel, slik at du kan lagre arbeidet og koble til laderen."
+  },
+  "pt-BR": {
+    captionTitle: "Transcrição",
+    caption: "BatteryCountdown mostra a contagem regressiva de bateria baixa na barra de menus. Em seguida, Charger Run Mode abre um aviso visível para você salvar o trabalho e conectar o carregador."
+  },
+  ru: {
+    captionTitle: "Транскрипт",
+    caption: "BatteryCountdown показывает отсчет низкого заряда в строке меню. Затем Charger Run Mode открывает заметное предупреждение, чтобы вы успели сохранить работу и подключить зарядку."
+  },
+  "zh-Hans": {
+    captionTitle: "文字说明",
+    caption: "BatteryCountdown 在菜单栏显示低电量倒计时，随后 Charger Run Mode 打开醒目的警告，让你有时间保存工作并连接充电器。"
+  }
+};
+
+for (const [code, caption] of Object.entries(demoCaptions)) {
+  demoContent[code] = { ...demoContent[code], ...caption };
+}
+
 demoContent["pt-br"] = demoContent["pt-BR"];
 demoContent["zh-hans"] = demoContent["zh-Hans"];
 
@@ -2335,11 +2390,15 @@ function renderDemo(locale) {
         </div>
       </section>
       <section class="section-shell demo-section" aria-labelledby="demo-video-title">
-        <div class="demo-video-wrap">
+        <figure class="demo-video-wrap">
           <video class="demo-video" controls playsinline preload="metadata" poster="/assets/charger-run-mode-demo-poster.webp" aria-label="${h(page.title)}">
             <source src="/assets/charger-run-mode-demo.mp4" type="video/mp4">
           </video>
-        </div>
+          <figcaption class="demo-caption">
+            <strong>${h(page.captionTitle)}</strong>
+            <span>${h(page.caption)}</span>
+          </figcaption>
+        </figure>
         <div class="demo-details">
           <p class="eyebrow">${h(page.eyebrow)}</p>
           <h2 id="demo-video-title">${h(page.detailsTitle)}</h2>
@@ -2367,6 +2426,7 @@ function renderDemo(locale) {
       "contentUrl": `${SITE_URL}/assets/charger-run-mode-demo.mp4`,
       "uploadDate": "2026-05-24",
       "duration": "PT18S",
+      "transcript": page.caption,
       "inLanguage": locale.hreflang
     },
     {

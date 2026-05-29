@@ -544,6 +544,7 @@ h3 {
 }
 
 .demo-video-wrap {
+  margin: 0;
   padding: 10px;
   border: 1px solid rgba(18, 22, 31, 0.1);
   border-radius: 8px;
@@ -557,6 +558,19 @@ h3 {
   aspect-ratio: 720 / 404;
   border-radius: 6px;
   background: #101722;
+}
+
+.demo-caption {
+  display: grid;
+  gap: 5px;
+  padding: 12px 4px 2px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.demo-caption strong {
+  color: var(--ink);
+  font-size: 0.92rem;
 }
 
 .demo-details {
