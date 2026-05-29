@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Canonical host: redirect www to non-www.
+RewriteCond %{HTTP_HOST} ^www\.batterycountdown\.com$ [NC]
+RewriteRule ^(.*)$ https://batterycountdown.com/$1 [L,R=301]
