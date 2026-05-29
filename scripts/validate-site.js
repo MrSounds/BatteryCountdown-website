@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const EXPECTED_PAGES = 60;
+const EXPECTED_PAGES = 108;
 const EXPECTED_HREFLANGS = 13;
 
 function fail(message) {

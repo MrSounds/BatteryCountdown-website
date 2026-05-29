@@ -15,6 +15,10 @@ Each locale includes:
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac
+- Guide: MacBook low battery warning not showing
+- Guide: how to get a shutdown warning on Mac
+- Guide: can you change the Mac low battery alert
+- Guide: best low battery warning app for Mac
 - Demo: Charger Run Mode video demo
 
 ## Generate

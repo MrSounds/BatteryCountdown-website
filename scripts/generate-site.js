@@ -9,6 +9,14 @@ const APP_NAME = "BatteryCountdown";
 const APP_STORE_URL = "https://apps.apple.com/app/id6762373837?mt=12";
 const SUPPORT_EMAIL = "request@lyder.no";
 const SUPPORT_MAILTO = "mailto:request@lyder.no?subject=BatteryCountdown%20Support%20Request";
+const LASTMOD = "2026-05-29";
+
+const {
+  extraGuidePageKeys,
+  extraGuideSlugs,
+  extraGuideCommon,
+  extraGuideContent
+} = require("./seo-guide-content");
 
 const locales = [
   { code: "en", prefix: "", hreflang: "en", htmlLang: "en", name: "English", native: "English", guideSlug: "change-low-battery-warning-percentage-mac" },
@@ -26,7 +34,8 @@ const locales = [
 ];
 
 const localeByCode = Object.fromEntries(locales.map((locale) => [locale.code, locale]));
-const pageKeys = ["home", "faq", "support", "guide", "demo"];
+const guidePageKeys = ["guide", ...extraGuidePageKeys];
+const pageKeys = ["home", "faq", "support", ...guidePageKeys, "demo"];
 
 const t = {
   en: {
@@ -1868,12 +1877,23 @@ function abs(urlPath) {
   return `${SITE_URL}${urlPath === "/" ? "/" : urlPath}`;
 }
 
+function isGuidePage(pageKey) {
+  return guidePageKeys.includes(pageKey);
+}
+
+function guideSlug(locale, pageKey) {
+  if (pageKey === "guide") return locale.guideSlug;
+  const slugs = extraGuideSlugs[locale.code] || extraGuideSlugs[locale.prefix] || extraGuideSlugs.en;
+  if (slugs && slugs[pageKey]) return slugs[pageKey];
+  throw new Error(`Missing guide slug for ${locale.code} ${pageKey}`);
+}
+
 function pagePath(locale, pageKey) {
   const root = locale.prefix ? `/${locale.prefix}` : "";
   if (pageKey === "home") return `${root || ""}/`;
   if (pageKey === "faq") return `${root}/faq/`;
   if (pageKey === "support") return `${root}/support/`;
-  if (pageKey === "guide") return `${root}/guides/${locale.guideSlug}/`;
+  if (isGuidePage(pageKey)) return `${root}/guides/${guideSlug(locale, pageKey)}/`;
   if (pageKey === "demo") return `${root}/demo/charger-run-mode/`;
   throw new Error(`Unknown page key ${pageKey}`);
 }
@@ -1906,7 +1926,7 @@ function alternateLinks(pageKey) {
 function nav(locale, pageKey) {
   const c = t[locale.code] || t[locale.prefix] || t.en;
   const link = (key, label, href) => {
-    const cls = pageKey === key ? ` class="current"` : "";
+    const cls = pageKey === key || (key === "guide" && isGuidePage(pageKey)) ? ` class="current"` : "";
     return `<a${cls} href="${h(href)}">${h(label)}</a>`;
   };
   return `<header class="site-header">
@@ -2368,9 +2388,41 @@ function renderDemo(locale) {
   return layout(locale, "demo", { title: page.title, description: page.description, ogType: "video.other", ogDescription: page.description }, body, graph);
 }
 
-function renderGuide(locale) {
-  const c = t[locale.code] || t.en;
-  const page = c.guide;
+function guideCopy(locale, pageKey) {
+  const c = t[locale.code] || t[locale.prefix] || t.en;
+  if (pageKey === "guide") return c.guide;
+  const common = extraGuideCommon[locale.code] || extraGuideCommon[locale.prefix] || extraGuideCommon.en;
+  const localeGuides = extraGuideContent[locale.code] || extraGuideContent[locale.prefix] || extraGuideContent.en;
+  const page = localeGuides[pageKey] || extraGuideContent.en[pageKey];
+  if (!page) throw new Error(`Missing guide copy for ${locale.code} ${pageKey}`);
+  return { ...common, ...page };
+}
+
+function relatedGuideCards(locale, activePageKey) {
+  const common = extraGuideCommon[locale.code] || extraGuideCommon[locale.prefix] || extraGuideCommon.en;
+  const cards = guidePageKeys
+    .filter((pageKey) => pageKey !== activePageKey)
+    .map((pageKey) => {
+      const page = guideCopy(locale, pageKey);
+      return `<a class="guide-link-card" href="${h(pagePath(locale, pageKey))}">
+              <strong>${h(page.linkTitle || page.h1)}</strong>
+              <span>${h(page.linkDescription || page.description)}</span>
+            </a>`;
+    })
+    .join("\n            ");
+  return `<section class="related-guides" aria-labelledby="related-guides-title">
+          <h2 id="related-guides-title">${h(common.relatedTitle || "Related guides")}</h2>
+          <p>${h(common.relatedIntro || "Continue with another practical Mac battery guide.")}</p>
+          <div class="guide-link-grid">
+            ${cards}
+          </div>
+        </section>`;
+}
+
+function renderGuide(locale, pageKey = "guide") {
+  const c = t[locale.code] || t[locale.prefix] || t.en;
+  const page = guideCopy(locale, pageKey);
+  const route = pagePath(locale, pageKey);
   const faqEntities = page.quick.map(([q, a]) => ({
     "@type": "Question",
     "name": q,
@@ -2414,6 +2466,7 @@ function renderGuide(locale) {
           ${page.quick.map(([q, a]) => `<h3>${h(q)}</h3>
           <p>${h(a)}</p>`).join("\n          ")}
         </section>
+        ${relatedGuideCards(locale, pageKey)}
       </article>
       <section class="final-cta" aria-labelledby="guide-final-title">
         <div class="section-shell">
@@ -2427,23 +2480,23 @@ function renderGuide(locale) {
   const graph = [
     {
       "@type": "TechArticle",
-      "@id": `${abs(pagePath(locale, "guide"))}#article`,
+      "@id": `${abs(route)}#article`,
       "headline": page.h1,
       "description": page.description,
-      "datePublished": "2026-05-24",
-      "dateModified": "2026-05-24",
+      "datePublished": pageKey === "guide" ? "2026-05-24" : LASTMOD,
+      "dateModified": LASTMOD,
       "author": { "@type": "Organization", "name": "MrSounds AS" },
       "publisher": {
         "@type": "Organization",
         "name": "MrSounds AS",
         "logo": { "@type": "ImageObject", "url": `${SITE_URL}/assets/app-icon.png` }
       },
-      "mainEntityOfPage": { "@id": `${abs(pagePath(locale, "guide"))}#webpage` },
+      "mainEntityOfPage": { "@id": `${abs(route)}#webpage` },
       "inLanguage": locale.hreflang
     },
     {
       "@type": "HowTo",
-      "@id": `${abs(pagePath(locale, "guide"))}#howto`,
+      "@id": `${abs(route)}#howto`,
       "name": page.stepsTitle,
       "description": page.description,
       "inLanguage": locale.hreflang,
@@ -2454,29 +2507,29 @@ function renderGuide(locale) {
     },
     {
       "@type": "FAQPage",
-      "@id": `${abs(pagePath(locale, "guide"))}#faq`,
+      "@id": `${abs(route)}#faq`,
       "inLanguage": locale.hreflang,
       "mainEntity": faqEntities
     },
     {
       "@type": "WebPage",
-      "@id": `${abs(pagePath(locale, "guide"))}#webpage`,
-      "url": abs(pagePath(locale, "guide")),
+      "@id": `${abs(route)}#webpage`,
+      "url": abs(route),
       "name": page.title,
       "description": page.description,
       "isPartOf": { "@id": `${SITE_URL}/#website` },
       "inLanguage": locale.hreflang
     },
-    breadcrumbGraph(locale, "guide", c.nav.guide)
+    breadcrumbGraph(locale, pageKey, page.h1)
   ];
-  return layout(locale, "guide", { title: page.title, description: page.description, ogType: "article", ogDescription: page.ogDescription }, body, graph);
+  return layout(locale, pageKey, { title: page.title, description: page.description, ogType: "article", ogDescription: page.ogDescription }, body, graph);
 }
 
 function renderPage(locale, pageKey) {
   if (pageKey === "home") return renderHome(locale);
   if (pageKey === "faq") return renderFaq(locale);
   if (pageKey === "support") return renderSupport(locale);
-  if (pageKey === "guide") return renderGuide(locale);
+  if (isGuidePage(pageKey)) return renderGuide(locale, pageKey);
   if (pageKey === "demo") return renderDemo(locale);
   throw new Error(`Unknown page ${pageKey}`);
 }
@@ -2498,7 +2551,7 @@ function renderSitemap() {
       entries.push(`  <url>
     <loc>${h(abs(route))}</loc>
 ${alternates.join("\n")}
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>${LASTMOD}</lastmod>
   </url>`);
     }
   }
@@ -2511,7 +2564,11 @@ ${entries.join("\n")}
 
 function renderLlms() {
   const languageRows = locales.map((locale) => `- ${locale.name} (${locale.hreflang}): ${abs(pagePath(locale, "home"))}`).join("\n");
-  const guideRows = locales.map((locale) => `- ${locale.name}: ${abs(pagePath(locale, "guide"))}`).join("\n");
+  const guideRows = guidePageKeys.map((pageKey) => {
+    const title = guideCopy(localeByCode.en, pageKey).h1;
+    const rows = locales.map((locale) => `- ${locale.name}: ${abs(pagePath(locale, pageKey))}`).join("\n");
+    return `### ${title}\n\n${rows}`;
+  }).join("\n\n");
   const demoRows = locales.map((locale) => `- ${locale.name}: ${abs(pagePath(locale, "demo"))}`).join("\n");
   return `# BatteryCountdown
 
@@ -2536,10 +2593,10 @@ ${languageRows}
 - Home pages: product overview for BatteryCountdown and low battery shutdown warning on Mac.
 - FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - Support pages: contact details for BatteryCountdown support.
-- Guide pages: answer-first guide explaining whether users can change the low battery warning percentage on Mac and how BatteryCountdown adds a custom menu bar countdown.
+- Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, Mac low battery alerts, and choosing a low battery warning app.
 - Demo pages: short Charger Run Mode video demo showing the visible low battery shutdown warning.
 
-## Main Guide URLs
+## Guide URLs
 
 ${guideRows}
 
@@ -2557,6 +2614,10 @@ ${demoRows}
 - battery countdown Mac
 - time until Mac shuts down battery
 - Charger Run Mode demo
+- MacBook low battery warning not showing
+- how to get a shutdown warning on Mac
+- can you change the Mac low battery alert
+- best low battery warning app for Mac
 `;
 }
 
@@ -2586,6 +2647,10 @@ Each locale includes:
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac
+- Guide: MacBook low battery warning not showing
+- Guide: how to get a shutdown warning on Mac
+- Guide: can you change the Mac low battery alert
+- Guide: best low battery warning app for Mac
 - Demo: Charger Run Mode video demo
 
 ## Generate

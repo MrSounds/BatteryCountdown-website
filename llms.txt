@@ -32,10 +32,12 @@ Important facts:
 - Home pages: product overview for BatteryCountdown and low battery shutdown warning on Mac.
 - FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - Support pages: contact details for BatteryCountdown support.
-- Guide pages: answer-first guide explaining whether users can change the low battery warning percentage on Mac and how BatteryCountdown adds a custom menu bar countdown.
+- Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, Mac low battery alerts, and choosing a low battery warning app.
 - Demo pages: short Charger Run Mode video demo showing the visible low battery shutdown warning.
 
-## Main Guide URLs
+## Guide URLs
+
+### How to change the low battery warning percentage on Mac
 
 - English: https://batterycountdown.com/guides/change-low-battery-warning-percentage-mac/
 - German: https://batterycountdown.com/de/guides/mac-akku-warnung-prozent-aendern/
@@ -49,6 +51,66 @@ Important facts:
 - Portuguese Brazil: https://batterycountdown.com/pt-br/guides/alterar-porcentagem-aviso-bateria-mac/
 - Russian: https://batterycountdown.com/ru/guides/izmenit-procent-preduprezhdeniya-batarei-mac/
 - Chinese Simplified: https://batterycountdown.com/zh-hans/guides/mac-low-battery-warning-percentage-change/
+
+### MacBook low battery warning not showing
+
+- English: https://batterycountdown.com/guides/macbook-low-battery-warning-not-showing/
+- German: https://batterycountdown.com/de/guides/macbook-akkuwarnung-wird-nicht-angezeigt/
+- Spanish: https://batterycountdown.com/es/guides/aviso-bateria-baja-macbook-no-aparece/
+- French: https://batterycountdown.com/fr/guides/alerte-batterie-faible-macbook-ne-saffiche-pas/
+- Hindi: https://batterycountdown.com/hi/guides/macbook-low-battery-warning-not-showing/
+- Italian: https://batterycountdown.com/it/guides/avviso-batteria-scarica-macbook-non-appare/
+- Japanese: https://batterycountdown.com/ja/guides/macbook-low-battery-warning-not-showing/
+- Korean: https://batterycountdown.com/ko/guides/macbook-low-battery-warning-not-showing/
+- Norwegian Bokmal: https://batterycountdown.com/nb/guides/macbook-lavt-batteri-varsel-vises-ikke/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/guides/aviso-bateria-baixa-macbook-nao-aparece/
+- Russian: https://batterycountdown.com/ru/guides/macbook-low-battery-warning-not-showing/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/guides/macbook-low-battery-warning-not-showing/
+
+### How to get a shutdown warning on Mac
+
+- English: https://batterycountdown.com/guides/how-to-get-a-shutdown-warning-on-mac/
+- German: https://batterycountdown.com/de/guides/shutdown-warnung-auf-mac-erhalten/
+- Spanish: https://batterycountdown.com/es/guides/como-recibir-aviso-apagado-mac/
+- French: https://batterycountdown.com/fr/guides/obtenir-alerte-extinction-mac/
+- Hindi: https://batterycountdown.com/hi/guides/shutdown-warning-on-mac/
+- Italian: https://batterycountdown.com/it/guides/come-avere-avviso-spegnimento-mac/
+- Japanese: https://batterycountdown.com/ja/guides/shutdown-warning-on-mac/
+- Korean: https://batterycountdown.com/ko/guides/shutdown-warning-on-mac/
+- Norwegian Bokmal: https://batterycountdown.com/nb/guides/fa-varsel-for-mac-skrur-seg-av/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/guides/como-receber-aviso-desligamento-mac/
+- Russian: https://batterycountdown.com/ru/guides/shutdown-warning-on-mac/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/guides/shutdown-warning-on-mac/
+
+### Can you change the Mac low battery alert?
+
+- English: https://batterycountdown.com/guides/can-you-change-mac-low-battery-alert/
+- German: https://batterycountdown.com/de/guides/mac-akkuwarnung-aendern/
+- Spanish: https://batterycountdown.com/es/guides/cambiar-alerta-bateria-baja-mac/
+- French: https://batterycountdown.com/fr/guides/modifier-alerte-batterie-faible-mac/
+- Hindi: https://batterycountdown.com/hi/guides/change-mac-low-battery-alert/
+- Italian: https://batterycountdown.com/it/guides/cambiare-avviso-batteria-scarica-mac/
+- Japanese: https://batterycountdown.com/ja/guides/change-mac-low-battery-alert/
+- Korean: https://batterycountdown.com/ko/guides/change-mac-low-battery-alert/
+- Norwegian Bokmal: https://batterycountdown.com/nb/guides/endre-lavt-batteri-varsel-mac/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/guides/alterar-alerta-bateria-baixa-mac/
+- Russian: https://batterycountdown.com/ru/guides/change-mac-low-battery-alert/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/guides/change-mac-low-battery-alert/
+
+### Best low battery warning app for Mac
+
+- English: https://batterycountdown.com/guides/best-low-battery-warning-app-for-mac/
+- German: https://batterycountdown.com/de/guides/beste-akkuwarnung-app-fuer-mac/
+- Spanish: https://batterycountdown.com/es/guides/mejor-app-aviso-bateria-baja-mac/
+- French: https://batterycountdown.com/fr/guides/meilleure-app-alerte-batterie-faible-mac/
+- Hindi: https://batterycountdown.com/hi/guides/best-low-battery-warning-app-mac/
+- Italian: https://batterycountdown.com/it/guides/migliore-app-avviso-batteria-scarica-mac/
+- Japanese: https://batterycountdown.com/ja/guides/best-low-battery-warning-app-mac/
+- Korean: https://batterycountdown.com/ko/guides/best-low-battery-warning-app-mac/
+- Norwegian Bokmal: https://batterycountdown.com/nb/guides/beste-lavt-batteri-varsel-app-mac/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/guides/melhor-app-aviso-bateria-baixa-mac/
+- Russian: https://batterycountdown.com/ru/guides/best-low-battery-warning-app-mac/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/guides/best-low-battery-warning-app-mac/
 
 ## Charger Run Mode Demo URLs
 
@@ -75,3 +137,7 @@ Important facts:
 - battery countdown Mac
 - time until Mac shuts down battery
 - Charger Run Mode demo
+- MacBook low battery warning not showing
+- how to get a shutdown warning on Mac
+- can you change the Mac low battery alert
+- best low battery warning app for Mac
