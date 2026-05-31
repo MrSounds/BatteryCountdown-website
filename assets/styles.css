@@ -425,6 +425,8 @@ h3 {
 }
 
 .home-preview-copy {
+  min-width: 0;
+  width: 100%;
   max-width: 430px;
 }
 
@@ -432,7 +434,15 @@ h3 {
   color: var(--muted);
 }
 
+.home-preview-copy h2,
+.home-preview-copy p,
+.home-preview-copy a {
+  overflow-wrap: anywhere;
+}
+
 .home-preview-media {
+  min-width: 0;
+  max-width: 100%;
   margin: 0;
   padding: 12px;
   border: 1px solid rgba(18, 22, 31, 0.1);
@@ -444,6 +454,7 @@ h3 {
 .home-preview-video {
   display: block;
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 16 / 9;
   border-radius: 6px;
   background: #111722;
@@ -920,7 +931,7 @@ h3 {
 
   .mock-menubar {
     gap: 7px;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .mock-finder,
@@ -931,6 +942,7 @@ h3 {
   .mock-countdown-callout {
     right: 50%;
     bottom: calc(100% + 32px);
+    max-width: calc(100vw - 48px);
     padding: 4px 7px;
     font-size: 0.62rem;
   }
@@ -953,6 +965,10 @@ h3 {
     margin-left: 0;
     margin-top: 8px;
     padding: 12px;
+  }
+
+  .home-preview-copy {
+    max-width: 100%;
   }
 
   .mock-progress {
@@ -1021,6 +1037,18 @@ h3 {
 
   .mock-menubar {
     font-size: 0.9rem;
+  }
+
+  .mock-datetime {
+    display: none;
+  }
+
+  .home-preview-section {
+    gap: 20px;
+  }
+
+  .home-preview-media {
+    width: 100%;
   }
 
 }
