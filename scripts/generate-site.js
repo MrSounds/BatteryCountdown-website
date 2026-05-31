@@ -9,7 +9,7 @@ const APP_NAME = "BatteryCountdown";
 const APP_STORE_URL = "https://apps.apple.com/app/id6762373837?mt=12";
 const SUPPORT_EMAIL = "request@lyder.no";
 const SUPPORT_MAILTO = "mailto:request@lyder.no?subject=BatteryCountdown%20Support%20Request";
-const LASTMOD = "2026-05-29";
+const LASTMOD = "2026-05-31";
 
 const {
   extraGuidePageKeys,
@@ -1920,6 +1920,112 @@ function demoCopy(locale) {
   return demoContent[locale.code] || demoContent[locale.prefix] || demoContent.en;
 }
 
+const homePreviewContent = {
+  en: {
+    eyebrow: "See it in action",
+    title: "A live countdown before your Mac shuts down",
+    body: "The App Store preview shows the exact BatteryCountdown idea: a clear menu bar timer that helps you notice low battery early enough to save your work and get a charger.",
+    captionTitle: "Preview",
+    caption: "BatteryCountdown shows a red menu bar countdown while the Mac is running low on battery.",
+    link: "Watch Charger Run Mode demo"
+  },
+  de: {
+    eyebrow: "In Aktion sehen",
+    title: "Ein Live-Countdown vor dem Ausschalten deines Mac",
+    body: "Die App Store-Vorschau zeigt die Idee von BatteryCountdown: ein klarer Timer in der Menueleiste, damit du niedrigen Akku rechtzeitig bemerkst, deine Arbeit sicherst und den Charger holst.",
+    captionTitle: "Vorschau",
+    caption: "BatteryCountdown zeigt einen roten Countdown in der Menueleiste, wenn der Akku deines Mac niedrig ist.",
+    link: "Charger Run Mode Demo ansehen"
+  },
+  es: {
+    eyebrow: "Míralo en acción",
+    title: "Una cuenta atrás antes de que tu Mac se apague",
+    body: "La vista previa de App Store muestra la idea de BatteryCountdown: un temporizador claro en la barra de menús para notar la batería baja a tiempo, guardar tu trabajo y buscar el cargador.",
+    captionTitle: "Vista previa",
+    caption: "BatteryCountdown muestra una cuenta atrás roja en la barra de menús cuando la batería del Mac está baja.",
+    link: "Ver demo de Charger Run Mode"
+  },
+  fr: {
+    eyebrow: "Voir en action",
+    title: "Un compte à rebours avant l’extinction du Mac",
+    body: "L’aperçu App Store montre l’idée de BatteryCountdown : un minuteur clair dans la barre des menus pour repérer la batterie faible, enregistrer votre travail et brancher le chargeur à temps.",
+    captionTitle: "Aperçu",
+    caption: "BatteryCountdown affiche un compte à rebours rouge dans la barre des menus quand la batterie du Mac est faible.",
+    link: "Voir la démo Charger Run Mode"
+  },
+  hi: {
+    eyebrow: "Action में देखें",
+    title: "Mac बंद होने से पहले live countdown",
+    body: "App Store preview BatteryCountdown का idea साफ दिखाता है: menu bar में clear timer, ताकि low battery समय रहते दिखे, आप काम save करें और charger लगा सकें.",
+    captionTitle: "Preview",
+    caption: "Mac की battery low होने पर BatteryCountdown menu bar में red countdown दिखाता है.",
+    link: "Charger Run Mode demo देखें"
+  },
+  it: {
+    eyebrow: "Guarda come funziona",
+    title: "Un conto alla rovescia prima che il Mac si spenga",
+    body: "L’anteprima App Store mostra l’idea di BatteryCountdown: un timer chiaro nella barra dei menu per notare la batteria scarica, salvare il lavoro e prendere il caricatore in tempo.",
+    captionTitle: "Anteprima",
+    caption: "BatteryCountdown mostra un conto alla rovescia rosso nella barra dei menu quando la batteria del Mac è scarica.",
+    link: "Guarda la demo Charger Run Mode"
+  },
+  ja: {
+    eyebrow: "動作を見る",
+    title: "Macが終了する前のライブカウントダウン",
+    body: "App Storeプレビューでは、BatteryCountdownの考え方が分かります。メニューバーの分かりやすいタイマーで低バッテリーに早く気づき、作業を保存して充電器を用意できます。",
+    captionTitle: "プレビュー",
+    caption: "Macのバッテリーが低くなると、BatteryCountdownはメニューバーに赤いカウントダウンを表示します。",
+    link: "Charger Run Modeデモを見る"
+  },
+  ko: {
+    eyebrow: "작동 모습 보기",
+    title: "Mac이 꺼지기 전 보이는 실시간 카운트다운",
+    body: "App Store 미리보기는 BatteryCountdown의 핵심을 보여 줍니다. 메뉴 막대의 선명한 타이머로 배터리 부족을 더 빨리 알아차리고, 작업을 저장한 뒤 충전기를 연결할 수 있습니다.",
+    captionTitle: "미리보기",
+    caption: "Mac 배터리가 부족할 때 BatteryCountdown은 메뉴 막대에 빨간 카운트다운을 표시합니다.",
+    link: "Charger Run Mode 데모 보기"
+  },
+  nb: {
+    eyebrow: "Se den i bruk",
+    title: "En live nedtelling før Macen slår seg av",
+    body: "App Store-previewen viser hele poenget med BatteryCountdown: en tydelig timer i menylinjen som gjør at du rekker å se lavt batteri, lagre arbeidet og hente lader.",
+    captionTitle: "Preview",
+    caption: "BatteryCountdown viser en rød nedtelling i menylinjen når Macen begynner å gå tom for batteri.",
+    link: "Se Charger Run Mode-demo"
+  },
+  "pt-BR": {
+    eyebrow: "Veja em ação",
+    title: "Uma contagem regressiva antes do Mac desligar",
+    body: "A prévia da App Store mostra a ideia do BatteryCountdown: um timer claro na barra de menus para notar a bateria fraca, salvar seu trabalho e pegar o carregador a tempo.",
+    captionTitle: "Prévia",
+    caption: "BatteryCountdown mostra uma contagem regressiva vermelha na barra de menus quando a bateria do Mac está baixa.",
+    link: "Ver demo do Charger Run Mode"
+  },
+  ru: {
+    eyebrow: "Посмотрите в действии",
+    title: "Живой отсчет до выключения Mac",
+    body: "Превью из App Store показывает суть BatteryCountdown: понятный таймер в строке меню, чтобы вы успели заметить низкий заряд, сохранить работу и подключить зарядку.",
+    captionTitle: "Превью",
+    caption: "BatteryCountdown показывает красный отсчет в строке меню, когда заряд Mac становится низким.",
+    link: "Смотреть демо Charger Run Mode"
+  },
+  "zh-Hans": {
+    eyebrow: "实际效果",
+    title: "Mac 关机前的实时倒计时",
+    body: "App Store 预览展示了 BatteryCountdown 的核心作用：在菜单栏显示清晰计时器，帮助你及时发现低电量，保存工作并连接充电器。",
+    captionTitle: "预览",
+    caption: "当 Mac 电量偏低时，BatteryCountdown 会在菜单栏显示红色倒计时。",
+    link: "观看 Charger Run Mode 演示"
+  }
+};
+
+homePreviewContent["pt-br"] = homePreviewContent["pt-BR"];
+homePreviewContent["zh-hans"] = homePreviewContent["zh-Hans"];
+
+function homePreviewCopy(locale) {
+  return homePreviewContent[locale.code] || homePreviewContent[locale.prefix] || homePreviewContent.en;
+}
+
 function h(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -2145,6 +2251,7 @@ function renderHome(locale) {
   const c = t[locale.code] || t.en;
   const page = c.home;
   const demo = demoCopy(locale);
+  const preview = homePreviewCopy(locale);
   const body = `<main id="main">
       <section class="hero hero-home" aria-labelledby="hero-title">
         <div class="hero-shade"></div>
@@ -2182,6 +2289,24 @@ function renderHome(locale) {
             <p>${h(page.popoverText)}</p>
           </div>
         </div>
+      </section>
+
+      <section class="section-shell home-preview-section" aria-labelledby="home-preview-title">
+        <div class="home-preview-copy">
+          <p class="eyebrow">${h(preview.eyebrow)}</p>
+          <h2 id="home-preview-title">${h(preview.title)}</h2>
+          <p>${h(preview.body)}</p>
+          <a class="text-link" href="${h(pagePath(locale, "demo"))}">${h(preview.link)}</a>
+        </div>
+        <figure class="home-preview-media">
+          <video class="home-preview-video" controls playsinline preload="metadata" poster="/assets/app-preview-countdown-poster.webp" aria-label="${h(preview.title)}">
+            <source src="/assets/app-preview-countdown.mp4" type="video/mp4">
+          </video>
+          <figcaption class="demo-caption">
+            <strong>${h(preview.captionTitle)}</strong>
+            <span>${h(preview.caption)}</span>
+          </figcaption>
+        </figure>
       </section>
 
       <section class="answer-band" aria-labelledby="answer-title">
@@ -2270,6 +2395,18 @@ function renderHome(locale) {
       "isPartOf": { "@id": `${SITE_URL}/#website` },
       "about": { "@id": `${SITE_URL}/#app` },
       "description": page.description,
+      "inLanguage": locale.hreflang
+    },
+    {
+      "@type": "VideoObject",
+      "@id": `${abs(pagePath(locale, "home"))}#app-preview-video`,
+      "name": preview.title,
+      "description": preview.body,
+      "thumbnailUrl": `${SITE_URL}/assets/app-preview-countdown-poster.webp`,
+      "contentUrl": `${SITE_URL}/assets/app-preview-countdown.mp4`,
+      "uploadDate": "2026-05-31T10:00:00+02:00",
+      "duration": "PT15S",
+      "transcript": preview.caption,
       "inLanguage": locale.hreflang
     }
   ];
@@ -2424,7 +2561,7 @@ function renderDemo(locale) {
       "description": page.description,
       "thumbnailUrl": `${SITE_URL}/assets/charger-run-mode-demo-poster.webp`,
       "contentUrl": `${SITE_URL}/assets/charger-run-mode-demo.mp4`,
-      "uploadDate": "2026-05-24",
+      "uploadDate": "2026-05-24T18:00:00+02:00",
       "duration": "PT18S",
       "transcript": page.caption,
       "inLanguage": locale.hreflang
