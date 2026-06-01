@@ -9,7 +9,7 @@ const APP_NAME = "BatteryCountdown";
 const APP_STORE_URL = "https://apps.apple.com/app/id6762373837?mt=12";
 const SUPPORT_EMAIL = "request@lyder.no";
 const SUPPORT_MAILTO = "mailto:request@lyder.no?subject=BatteryCountdown%20Support%20Request";
-const LASTMOD = "2026-05-31";
+const LASTMOD = "2026-06-01";
 
 const {
   extraGuidePageKeys,
@@ -1921,18 +1921,18 @@ function demoCopy(locale) {
 }
 
 const homePriceContent = {
-  en: "One-time purchase at the lowest App Store price tier, usually about $0.99 or your local equivalent.",
-  de: "Einmaliger Kauf zum niedrigsten App Store-Preis, meist etwa 0,99 $ oder der entsprechende lokale Preis.",
-  es: "Compra única al precio más bajo de App Store, normalmente unos 0,99 US$ o el equivalente local.",
-  fr: "Achat unique au prix le plus bas de l’App Store, généralement environ 0,99 $ ou l’équivalent local.",
-  hi: "App Store के सबसे कम price tier पर one-time purchase, आम तौर पर लगभग $0.99 या आपका local equivalent.",
-  it: "Acquisto una tantum al prezzo più basso dell’App Store, di solito circa 0,99 $ o l’equivalente locale.",
-  ja: "App Storeの最低価格帯での買い切りです。通常は約0.99米ドル、または各地域の同等価格です。",
-  ko: "App Store 최저 가격대의 일회성 구매입니다. 보통 약 US$0.99 또는 해당 지역의 동등한 가격입니다.",
-  nb: "Engangskjøp til laveste App Store-prispunkt, vanligvis rundt 9 kr / 1 dollar eller tilsvarende lokalt.",
-  "pt-BR": "Compra única no menor preço da App Store, geralmente cerca de US$ 0,99 ou o equivalente local.",
-  ru: "Разовая покупка по минимальному ценовому уровню App Store, обычно около 0,99 $ или местный эквивалент.",
-  "zh-Hans": "一次性购买，采用 App Store 最低价格档，通常约为 0.99 美元或当地等值价格。"
+  en: "The app costs the lowest App Store price tier, usually about $0.99 or your local equivalent. Charger Run Mode is an optional one-time unlock at the same low tier.",
+  de: "Die App kostet den niedrigsten App Store-Preis, meist etwa 0,99 $ oder den entsprechenden lokalen Preis. Charger Run Mode ist ein optionaler Einmalkauf zum gleichen niedrigen Preis.",
+  es: "La app cuesta el precio más bajo de App Store, normalmente unos 0,99 US$ o el equivalente local. Charger Run Mode es un desbloqueo opcional de pago único al mismo precio bajo.",
+  fr: "L’app coûte le prix le plus bas de l’App Store, généralement environ 0,99 $ ou l’équivalent local. Charger Run Mode est un déverrouillage optionnel en achat unique au même petit prix.",
+  hi: "App Store के सबसे कम price tier पर app मिलती है, आम तौर पर लगभग $0.99 या आपका local equivalent. Charger Run Mode उसी low tier पर optional one-time unlock है.",
+  it: "L’app costa il prezzo più basso dell’App Store, di solito circa 0,99 $ o l’equivalente locale. Charger Run Mode è uno sblocco opzionale una tantum allo stesso prezzo basso.",
+  ja: "アプリ本体はApp Storeの最低価格帯です。通常は約0.99米ドル、または各地域の同等価格です。Charger Run Modeは同じ低価格帯のオプション買い切りアンロックです。",
+  ko: "앱은 App Store 최저 가격대입니다. 보통 약 US$0.99 또는 해당 지역의 동등한 가격입니다. Charger Run Mode는 같은 낮은 가격대의 선택적 일회성 잠금 해제입니다.",
+  nb: "Appen koster laveste App Store-prispunkt, vanligvis rundt 9 kr / 1 dollar eller tilsvarende lokalt. Charger Run Mode er en valgfri engangsopplåsing til samme lave nivå.",
+  "pt-BR": "O app custa o menor preço da App Store, geralmente cerca de US$ 0,99 ou o equivalente local. Charger Run Mode é um desbloqueio opcional de compra única no mesmo preço baixo.",
+  ru: "Приложение стоит минимальный ценовой уровень App Store, обычно около 0,99 $ или местный эквивалент. Charger Run Mode — это дополнительная разовая разблокировка по тому же низкому уровню.",
+  "zh-Hans": "应用本身采用 App Store 最低价格档，通常约为 0.99 美元或当地等值价格。Charger Run Mode 是同一低价档的可选一次性解锁。"
 };
 
 homePriceContent["pt-br"] = homePriceContent["pt-BR"];
@@ -2246,6 +2246,13 @@ function appGraph(locale) {
       "url": APP_STORE_URL
     },
     "isAccessibleForFree": false,
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Optional in-app purchase",
+        "value": "Charger Run Mode one-time unlock at the lowest App Store price tier"
+      }
+    ],
     "featureList": [
       c.home.features[0][2],
       c.home.features[1][2],
