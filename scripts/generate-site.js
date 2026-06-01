@@ -1920,6 +1920,28 @@ function demoCopy(locale) {
   return demoContent[locale.code] || demoContent[locale.prefix] || demoContent.en;
 }
 
+const homePriceContent = {
+  en: "One-time purchase at the lowest App Store price tier, usually about $0.99 or your local equivalent.",
+  de: "Einmaliger Kauf zum niedrigsten App Store-Preis, meist etwa 0,99 $ oder der entsprechende lokale Preis.",
+  es: "Compra única al precio más bajo de App Store, normalmente unos 0,99 US$ o el equivalente local.",
+  fr: "Achat unique au prix le plus bas de l’App Store, généralement environ 0,99 $ ou l’équivalent local.",
+  hi: "App Store के सबसे कम price tier पर one-time purchase, आम तौर पर लगभग $0.99 या आपका local equivalent.",
+  it: "Acquisto una tantum al prezzo più basso dell’App Store, di solito circa 0,99 $ o l’equivalente locale.",
+  ja: "App Storeの最低価格帯での買い切りです。通常は約0.99米ドル、または各地域の同等価格です。",
+  ko: "App Store 최저 가격대의 일회성 구매입니다. 보통 약 US$0.99 또는 해당 지역의 동등한 가격입니다.",
+  nb: "Engangskjøp til laveste App Store-prispunkt, vanligvis rundt 9 kr / 1 dollar eller tilsvarende lokalt.",
+  "pt-BR": "Compra única no menor preço da App Store, geralmente cerca de US$ 0,99 ou o equivalente local.",
+  ru: "Разовая покупка по минимальному ценовому уровню App Store, обычно около 0,99 $ или местный эквивалент.",
+  "zh-Hans": "一次性购买，采用 App Store 最低价格档，通常约为 0.99 美元或当地等值价格。"
+};
+
+homePriceContent["pt-br"] = homePriceContent["pt-BR"];
+homePriceContent["zh-hans"] = homePriceContent["zh-Hans"];
+
+function homePriceCopy(locale) {
+  return homePriceContent[locale.code] || homePriceContent[locale.prefix] || homePriceContent.en;
+}
+
 const homePreviewContent = {
   en: {
     eyebrow: "See it in action",
@@ -2219,10 +2241,11 @@ function appGraph(locale) {
     "description": c.home.description,
     "offers": {
       "@type": "Offer",
-      "price": "0",
+      "price": "0.99",
       "priceCurrency": "USD",
       "url": APP_STORE_URL
     },
+    "isAccessibleForFree": false,
     "featureList": [
       c.home.features[0][2],
       c.home.features[1][2],
@@ -2252,6 +2275,7 @@ function renderHome(locale) {
   const page = c.home;
   const demo = demoCopy(locale);
   const preview = homePreviewCopy(locale);
+  const priceNote = homePriceCopy(locale);
   const body = `<main id="main">
       <section class="hero hero-home" aria-labelledby="hero-title">
         <div class="hero-shade"></div>
@@ -2265,6 +2289,7 @@ function renderHome(locale) {
             <a class="button button-primary" href="${APP_STORE_URL}">${h(c.cta.download)}</a>
             <a class="button button-secondary" href="${h(pagePath(locale, "faq"))}">${h(c.cta.readFaq)}</a>
           </div>
+          <p class="price-note">${h(priceNote)}</p>
         </div>
         <div class="menu-demo" aria-label="BatteryCountdown menu bar preview">
           <div class="mock-menubar">
@@ -2379,6 +2404,7 @@ function renderHome(locale) {
           <h2 id="final-title">${h(page.finalTitle)}</h2>
           <p>${h(page.finalBody)}</p>
           <a class="button button-primary" href="${APP_STORE_URL}">${h(c.cta.download)}</a>
+          <p class="price-note price-note-final">${h(priceNote)}</p>
         </div>
       </section>
     </main>`;
