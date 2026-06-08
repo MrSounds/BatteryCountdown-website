@@ -558,6 +558,28 @@ h3 {
   border-radius: 6px;
 }
 
+.maker-band {
+  background: #f6f3ec;
+  border-top: 1px solid rgba(18, 22, 31, 0.08);
+  border-bottom: 1px solid rgba(18, 22, 31, 0.08);
+}
+
+.maker-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 0.78fr) minmax(280px, 1.22fr);
+  gap: 36px;
+  align-items: start;
+}
+
+.maker-shell p:not(.eyebrow) {
+  max-width: 720px;
+  color: var(--muted);
+}
+
+.maker-shell .text-link {
+  margin-top: 10px;
+}
+
 .charger-band {
   background: #202833;
   color: #fff;
@@ -935,6 +957,7 @@ h3 {
   .faq-mini,
   .guide-link-grid,
   .split-section,
+  .maker-shell,
   .charger-layout,
   .home-preview-section,
   .demo-section {
@@ -990,6 +1013,7 @@ h3 {
 
   .section-shell,
   .answer-band,
+  .maker-band,
   .charger-band,
   .final-cta {
     padding-top: 58px;
@@ -997,6 +1021,7 @@ h3 {
   }
 
   .answer-band .section-shell,
+  .maker-band .section-shell,
   .charger-band .section-shell,
   .final-cta .section-shell {
     padding-top: 0;

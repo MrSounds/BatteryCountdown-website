@@ -1942,6 +1942,88 @@ function homePriceCopy(locale) {
   return homePriceContent[locale.code] || homePriceContent[locale.prefix] || homePriceContent.en;
 }
 
+const makerContent = {
+  en: {
+    eyebrow: "Made by a small developer",
+    title: "Built quietly by MrSounds",
+    body: "BatteryCountdown is made by Lyder at MrSounds, an independent developer building small, practical tools for real Mac annoyances. It started as a simple idea: make low battery shutdowns easier to notice before work is lost.",
+    link: "Visit MrSounds"
+  },
+  de: {
+    eyebrow: "Von einem kleinen Entwickler",
+    title: "Ruhig gebaut von MrSounds",
+    body: "BatteryCountdown wird von Lyder bei MrSounds entwickelt, einem unabhaengigen Entwickler fuer kleine, praktische Werkzeuge gegen echte Mac-Alltagsprobleme. Die Idee war einfach: Akku-Shutdowns frueher bemerken, bevor Arbeit verloren geht.",
+    link: "MrSounds besuchen"
+  },
+  es: {
+    eyebrow: "Hecho por un desarrollador pequeño",
+    title: "Creado con calma por MrSounds",
+    body: "BatteryCountdown está hecho por Lyder en MrSounds, un desarrollador independiente que crea herramientas pequeñas y prácticas para problemas reales de Mac. Empezó con una idea simple: hacer más fácil notar un apagado por batería baja antes de perder trabajo.",
+    link: "Visitar MrSounds"
+  },
+  fr: {
+    eyebrow: "Créé par un petit développeur",
+    title: "Construit simplement par MrSounds",
+    body: "BatteryCountdown est créé par Lyder chez MrSounds, un développeur indépendant qui construit de petits outils pratiques pour de vrais problèmes du quotidien sur Mac. L'idée de départ était simple : rendre les extinctions par batterie faible plus faciles à voir avant de perdre du travail.",
+    link: "Visiter MrSounds"
+  },
+  hi: {
+    eyebrow: "एक छोटे developer द्वारा बनाया गया",
+    title: "MrSounds द्वारा शांत तरीके से बनाया गया",
+    body: "BatteryCountdown MrSounds में Lyder द्वारा बनाया गया है. Lyder एक independent developer है जो Mac की असली छोटी परेशानियों के लिए practical tools बनाता है. यह एक simple idea से शुरू हुआ: काम खोने से पहले low battery shutdown को notice करना आसान बनाना.",
+    link: "MrSounds देखें"
+  },
+  it: {
+    eyebrow: "Creato da un piccolo sviluppatore",
+    title: "Sviluppato con calma da MrSounds",
+    body: "BatteryCountdown è creato da Lyder di MrSounds, uno sviluppatore indipendente che realizza piccoli strumenti pratici per problemi reali su Mac. È nato da un'idea semplice: rendere più facile notare gli spegnimenti per batteria scarica prima di perdere il lavoro.",
+    link: "Visita MrSounds"
+  },
+  ja: {
+    eyebrow: "小さな開発者が作っています",
+    title: "MrSoundsが静かに開発",
+    body: "BatteryCountdownは、MrSoundsのLyderが作っているアプリです。独立した開発者として、Macの日常的な小さな困りごとに向けた実用的なツールを作っています。作業を失う前に低バッテリー終了に気づきやすくする、というシンプルな考えから始まりました。",
+    link: "MrSoundsを見る"
+  },
+  ko: {
+    eyebrow: "작은 개발자가 만들었습니다",
+    title: "MrSounds가 조용히 만든 앱",
+    body: "BatteryCountdown은 MrSounds의 Lyder가 만든 앱입니다. Lyder는 Mac에서 실제로 겪는 작은 불편을 위한 실용적인 도구를 만드는 독립 개발자입니다. 작업을 잃기 전에 배터리 부족 종료를 더 쉽게 알아차리게 하자는 단순한 생각에서 시작했습니다.",
+    link: "MrSounds 방문"
+  },
+  nb: {
+    eyebrow: "Laget av en liten utvikler",
+    title: "Bygget stille og rolig av MrSounds",
+    body: "BatteryCountdown er laget av Lyder i MrSounds, en uavhengig utvikler som bygger små, praktiske verktøy for ekte Mac-irritasjoner. Appen startet med en enkel idé: gjøre det lettere å oppdage lavt batteri før Macen slår seg av og arbeid går tapt.",
+    link: "Besøk MrSounds"
+  },
+  "pt-BR": {
+    eyebrow: "Feito por um pequeno desenvolvedor",
+    title: "Criado com calma pela MrSounds",
+    body: "BatteryCountdown é feito por Lyder na MrSounds, um desenvolvedor independente que cria pequenas ferramentas práticas para problemas reais do Mac. A ideia começou simples: tornar mais fácil perceber o desligamento por bateria fraca antes de perder trabalho.",
+    link: "Visitar MrSounds"
+  },
+  ru: {
+    eyebrow: "Сделано небольшим разработчиком",
+    title: "Спокойно создано MrSounds",
+    body: "BatteryCountdown сделал Lyder из MrSounds, независимый разработчик небольших практичных инструментов для реальных Mac-проблем. Все началось с простой идеи: помочь заметить выключение из-за низкого заряда до того, как будет потеряна работа.",
+    link: "Перейти на MrSounds"
+  },
+  "zh-Hans": {
+    eyebrow: "由小型开发者制作",
+    title: "由 MrSounds 安静打造",
+    body: "BatteryCountdown 由 MrSounds 的 Lyder 制作。Lyder 是一名独立开发者，专注于为真实的 Mac 日常小烦恼制作实用工具。它最初只是一个简单想法：在工作丢失前，让低电量关机更容易被注意到。",
+    link: "访问 MrSounds"
+  }
+};
+
+makerContent["pt-br"] = makerContent["pt-BR"];
+makerContent["zh-hans"] = makerContent["zh-Hans"];
+
+function makerCopy(locale) {
+  return makerContent[locale.code] || makerContent[locale.prefix] || makerContent.en;
+}
+
 const homePreviewContent = {
   en: {
     eyebrow: "See it in action",
@@ -2213,7 +2295,7 @@ function orgGraph(locale) {
     "url": `${SITE_URL}/`,
     "logo": `${SITE_URL}/assets/app-icon.png`,
     "email": SUPPORT_EMAIL,
-    "sameAs": [APP_STORE_URL, "https://github.com/MrSounds/BatteryCountdown-website"]
+    "sameAs": [APP_STORE_URL, "https://mrsounds.no/", "https://github.com/MrSounds/BatteryCountdown-website"]
   };
 }
 
@@ -2283,6 +2365,7 @@ function renderHome(locale) {
   const demo = demoCopy(locale);
   const preview = homePreviewCopy(locale);
   const priceNote = homePriceCopy(locale);
+  const maker = makerCopy(locale);
   const body = `<main id="main">
       <section class="hero hero-home" aria-labelledby="hero-title">
         <div class="hero-shade"></div>
@@ -2370,6 +2453,19 @@ function renderHome(locale) {
         </div>
         <div class="quiet-list" aria-label="BatteryCountdown design principles">
           ${page.principles.map(([strong, text]) => `<p><strong>${h(strong)}</strong> ${h(text)}</p>`).join("\n          ")}
+        </div>
+      </section>
+
+      <section class="maker-band" aria-labelledby="maker-title">
+        <div class="section-shell maker-shell">
+          <div>
+            <p class="eyebrow">${h(maker.eyebrow)}</p>
+            <h2 id="maker-title">${h(maker.title)}</h2>
+          </div>
+          <div>
+            <p>${h(maker.body)}</p>
+            <a class="text-link" href="https://mrsounds.no/" rel="author external">${h(maker.link)}</a>
+          </div>
         </div>
       </section>
 
