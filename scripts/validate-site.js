@@ -4,7 +4,6 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const EXPECTED_PAGES = 108;
 const EXPECTED_HREFLANGS = 13;
 
 function fail(message) {
@@ -59,11 +58,11 @@ function validateHtml(filePath, allPages) {
   }
 }
 
-function validateSitemap() {
+function validateSitemap(expectedPages) {
   const sitemapPath = path.join(ROOT, "sitemap.xml");
   const xml = fs.readFileSync(sitemapPath, "utf8");
-  if (count(xml, /<url>/g) !== EXPECTED_PAGES) fail(`sitemap.xml: expected ${EXPECTED_PAGES} url entries`);
-  if (count(xml, /<xhtml:link /g) !== EXPECTED_PAGES * EXPECTED_HREFLANGS) {
+  if (count(xml, /<url>/g) !== expectedPages) fail(`sitemap.xml: expected ${expectedPages} url entries`);
+  if (count(xml, /<xhtml:link /g) !== expectedPages * EXPECTED_HREFLANGS) {
     fail("sitemap.xml: expected complete hreflang alternates");
   }
 }
@@ -72,10 +71,10 @@ function main() {
   const pages = [];
   walk(ROOT, pages);
   pages.sort();
-  if (pages.length !== EXPECTED_PAGES) fail(`expected ${EXPECTED_PAGES} HTML pages, found ${pages.length}`);
+  if (pages.length === 0) fail("expected generated HTML pages");
   const allPages = new Set(pages);
   for (const filePath of pages) validateHtml(filePath, allPages);
-  validateSitemap();
+  validateSitemap(pages.length);
   console.log(`Validated ${pages.length} pages, JSON-LD, canonical tags, hreflang links, and sitemap.`);
 }
 

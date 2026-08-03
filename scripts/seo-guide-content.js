@@ -1,8 +1,21 @@
+const {
+  batteryCarePageKey,
+  batteryCareSlugs,
+  batteryCareContent
+} = require("./battery-care-guide-content");
+const {
+  comparisonGuidePageKey,
+  comparisonGuideSlugs,
+  comparisonGuideContent
+} = require("./comparison-guide-content");
+
 const extraGuidePageKeys = [
   "guideWarningNotShowing",
   "guideShutdownWarning",
   "guideLowBatteryAlert",
-  "guideBestApp"
+  "guideBestApp",
+  batteryCarePageKey,
+  comparisonGuidePageKey
 ];
 
 const extraGuideSlugs = {
@@ -79,6 +92,13 @@ const extraGuideSlugs = {
     guideBestApp: "best-low-battery-warning-app-mac"
   }
 };
+
+for (const [locale, slug] of Object.entries(batteryCareSlugs)) {
+  extraGuideSlugs[locale][batteryCarePageKey] = slug;
+}
+for (const [locale, slug] of Object.entries(comparisonGuideSlugs)) {
+  extraGuideSlugs[locale][comparisonGuidePageKey] = slug;
+}
 
 extraGuideSlugs["pt-br"] = extraGuideSlugs["pt-BR"];
 extraGuideSlugs["zh-hans"] = extraGuideSlugs["zh-Hans"];
@@ -1196,6 +1216,13 @@ extraGuideContent["zh-Hans"] = {
     linkDescription: "了解如何选择 Mac 电池警告工具。"
   }
 };
+
+for (const [locale, content] of Object.entries(batteryCareContent)) {
+  extraGuideContent[locale][batteryCarePageKey] = content;
+}
+for (const [locale, content] of Object.entries(comparisonGuideContent)) {
+  extraGuideContent[locale][comparisonGuidePageKey] = content;
+}
 
 extraGuideContent["pt-br"] = extraGuideContent["pt-BR"];
 extraGuideContent["zh-hans"] = extraGuideContent["zh-Hans"];

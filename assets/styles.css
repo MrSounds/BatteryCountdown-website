@@ -702,6 +702,7 @@ h3 {
 }
 
 .guide-article section {
+  min-width: 0;
   background: var(--paper);
   border: 1px solid rgba(18, 22, 31, 0.1);
   border-radius: 8px;
@@ -734,6 +735,67 @@ h3 {
 .answer-card {
   background: #e9f1ee;
   border-left: 4px solid var(--green);
+}
+
+.comparison-table-wrap {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-top: 20px;
+  overflow-x: auto;
+  border: 1px solid rgba(18, 22, 31, 0.1);
+  border-radius: 8px;
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+
+.comparison-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-right: 1px solid rgba(18, 22, 31, 0.08);
+  border-bottom: 1px solid rgba(18, 22, 31, 0.08);
+}
+
+.comparison-table tr > :last-child {
+  border-right: 0;
+}
+
+.comparison-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.comparison-table thead th {
+  color: var(--ink);
+  background: #f1f4f5;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.comparison-table tbody th {
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.comparison-table td {
+  color: var(--muted);
+}
+
+.comparison-table .comparison-highlight > * {
+  background: #e9f1ee;
+}
+
+.charger-guide-note {
+  border-left: 4px solid var(--red);
 }
 
 .guide-link-grid {

@@ -2273,7 +2273,7 @@ function layout(locale, pageKey, meta, body, graph) {
     <meta name="twitter:title" content="${h(ogTitle)}">
     <meta name="twitter:description" content="${h(ogDescription)}">
     <meta name="twitter:image" content="${h(abs("/assets/app-icon.png"))}">
-    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260803">
     ${jsonLd({ "@context": "https://schema.org", "@graph": graph })}
   </head>
   <body>
@@ -2771,7 +2771,21 @@ function renderGuide(locale, pageKey = "guide") {
           <h2 id="answer">${h(page.answerTitle)}</h2>
           ${page.answerParagraphs.map((p) => `<p>${h(p)}</p>`).join("\n          ")}
         </section>
-        <section aria-labelledby="steps">
+${page.comparisonRows?.length ? `        <section aria-labelledby="comparison-title">
+          <h2 id="comparison-title">${h(page.comparisonTitle)}</h2>
+          <p>${h(page.comparisonIntro)}</p>
+          <div class="comparison-table-wrap" tabindex="0" role="region" aria-labelledby="comparison-title">
+            <table class="comparison-table">
+              <thead>
+                <tr>${page.comparisonHeaders.map((header) => `<th scope="col">${h(header)}</th>`).join("")}</tr>
+              </thead>
+              <tbody>
+                ${page.comparisonRows.map((row, index) => `<tr${index === 0 ? ` class="comparison-highlight"` : ""}>${row.map((cell, cellIndex) => cellIndex === 0 ? `<th scope="row">${h(cell)}</th>` : `<td>${h(cell)}</td>`).join("")}</tr>`).join("\n                ")}
+              </tbody>
+            </table>
+          </div>
+        </section>
+` : ""}        <section aria-labelledby="steps">
           <h2 id="steps">${h(page.stepsTitle)}</h2>
           <ol>
             ${page.steps.map((step) => `<li>${h(step)}</li>`).join("\n            ")}
@@ -2787,12 +2801,23 @@ function renderGuide(locale, pageKey = "guide") {
             ${page.settings.map((item) => `<li>${h(item)}</li>`).join("\n            ")}
           </ul>
         </section>
-        <section aria-labelledby="faq-mini-guide">
+${page.chargerTitle ? `        <section class="charger-guide-note" aria-labelledby="charger-guide-title">
+          <h2 id="charger-guide-title">${h(page.chargerTitle)}</h2>
+          <p>${h(page.chargerBody)}</p>
+          <a class="text-link" href="${h(pagePath(locale, "demo"))}">${h(page.chargerLink)}</a>
+        </section>
+` : ""}        <section aria-labelledby="faq-mini-guide">
           <h2 id="faq-mini-guide">${h(page.quickTitle)}</h2>
           ${page.quick.map(([q, a]) => `<h3>${h(q)}</h3>
           <p>${h(a)}</p>`).join("\n          ")}
         </section>
-        ${relatedGuideCards(locale, pageKey)}
+${page.sources?.length ? `        <section aria-labelledby="guide-sources">
+          <h2 id="guide-sources">${h(page.sourcesTitle || "Sources")}</h2>
+          <ul class="source-list">
+            ${page.sources.map(([label, url]) => `<li><a href="${h(url)}" rel="noopener noreferrer">${h(label)}</a></li>`).join("\n            ")}
+          </ul>
+        </section>
+` : ""}        ${relatedGuideCards(locale, pageKey)}
       </article>
       <section class="final-cta" aria-labelledby="guide-final-title">
         <div class="section-shell">
@@ -2809,8 +2834,8 @@ function renderGuide(locale, pageKey = "guide") {
       "@id": `${abs(route)}#article`,
       "headline": page.h1,
       "description": page.description,
-      "datePublished": pageKey === "guide" ? "2026-05-24" : LASTMOD,
-      "dateModified": LASTMOD,
+      "datePublished": page.datePublished || (pageKey === "guide" ? "2026-05-24" : LASTMOD),
+      "dateModified": page.dateModified || LASTMOD,
       "author": { "@type": "Organization", "name": "MrSounds AS" },
       "publisher": {
         "@type": "Organization",
@@ -2818,6 +2843,7 @@ function renderGuide(locale, pageKey = "guide") {
         "logo": { "@type": "ImageObject", "url": `${SITE_URL}/assets/app-icon.png` }
       },
       "mainEntityOfPage": { "@id": `${abs(route)}#webpage` },
+      ...(page.sources?.length ? { "citation": page.sources.map(([, url]) => url) } : {}),
       "inLanguage": locale.hreflang
     },
     {
@@ -2874,10 +2900,11 @@ function renderSitemap() {
         return `    <xhtml:link rel="alternate" hreflang="${h(candidate.hreflang)}" href="${h(abs(pagePath(candidate, pageKey)))}" />`;
       });
       alternates.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${h(abs(pagePath(localeByCode.en, pageKey)))}" />`);
+      const lastmod = isGuidePage(pageKey) ? (guideCopy(locale, pageKey).dateModified || LASTMOD) : LASTMOD;
       entries.push(`  <url>
     <loc>${h(abs(route))}</loc>
 ${alternates.join("\n")}
-    <lastmod>${LASTMOD}</lastmod>
+    <lastmod>${lastmod}</lastmod>
   </url>`);
     }
   }
@@ -2919,7 +2946,7 @@ ${languageRows}
 - Home pages: product overview for BatteryCountdown and low battery shutdown warning on Mac.
 - FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - Support pages: contact details for BatteryCountdown support.
-- Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, Mac low battery alerts, and choosing a low battery warning app.
+- Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, comparing popular Mac battery apps, choosing a low battery warning app, and caring for a MacBook lithium-ion battery.
 - Demo pages: short Charger Run Mode video demo showing the visible low battery shutdown warning.
 
 ## Guide URLs
@@ -2944,6 +2971,12 @@ ${demoRows}
 - how to get a shutdown warning on Mac
 - can you change the Mac low battery alert
 - best low battery warning app for Mac
+- how to care for a MacBook lithium battery
+- avoid leaving a MacBook fully discharged
+- MacBook battery deep discharge
+- best battery apps for Mac compared
+- BatteryCountdown vs AlDente
+- BatteryCountdown vs coconutBattery
 `;
 }
 

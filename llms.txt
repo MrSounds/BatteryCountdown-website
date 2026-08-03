@@ -32,7 +32,7 @@ Important facts:
 - Home pages: product overview for BatteryCountdown and low battery shutdown warning on Mac.
 - FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - Support pages: contact details for BatteryCountdown support.
-- Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, Mac low battery alerts, and choosing a low battery warning app.
+- Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, comparing popular Mac battery apps, choosing a low battery warning app, and caring for a MacBook lithium-ion battery.
 - Demo pages: short Charger Run Mode video demo showing the visible low battery shutdown warning.
 
 ## Guide URLs
@@ -112,6 +112,36 @@ Important facts:
 - Russian: https://batterycountdown.com/ru/guides/best-low-battery-warning-app-mac/
 - Chinese Simplified: https://batterycountdown.com/zh-hans/guides/best-low-battery-warning-app-mac/
 
+### How to care for a MacBook lithium battery
+
+- English: https://batterycountdown.com/guides/how-to-care-for-macbook-lithium-battery/
+- German: https://batterycountdown.com/de/guides/macbook-lithium-akku-richtig-pflegen/
+- Spanish: https://batterycountdown.com/es/guides/como-cuidar-bateria-litio-macbook/
+- French: https://batterycountdown.com/fr/guides/entretenir-batterie-lithium-macbook/
+- Hindi: https://batterycountdown.com/hi/guides/macbook-lithium-battery-care/
+- Italian: https://batterycountdown.com/it/guides/come-prendersi-cura-batteria-litio-macbook/
+- Japanese: https://batterycountdown.com/ja/guides/macbook-lithium-battery-care/
+- Korean: https://batterycountdown.com/ko/guides/macbook-lithium-battery-care/
+- Norwegian Bokmal: https://batterycountdown.com/nb/guides/slik-tar-du-vare-pa-litiumbatteriet-i-macbook/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/guides/como-cuidar-bateria-litio-macbook/
+- Russian: https://batterycountdown.com/ru/guides/macbook-lithium-battery-care/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/guides/macbook-lithium-battery-care/
+
+### BatteryCountdown vs popular Mac battery apps
+
+- English: https://batterycountdown.com/guides/best-battery-apps-for-mac-compared/
+- German: https://batterycountdown.com/de/guides/beste-batterie-apps-fuer-mac-vergleich/
+- Spanish: https://batterycountdown.com/es/guides/mejores-apps-bateria-mac-comparativa/
+- French: https://batterycountdown.com/fr/guides/meilleures-apps-batterie-mac-comparatif/
+- Hindi: https://batterycountdown.com/hi/guides/best-battery-apps-mac-comparison/
+- Italian: https://batterycountdown.com/it/guides/migliori-app-batteria-mac-confronto/
+- Japanese: https://batterycountdown.com/ja/guides/best-battery-apps-mac-comparison/
+- Korean: https://batterycountdown.com/ko/guides/best-battery-apps-mac-comparison/
+- Norwegian Bokmal: https://batterycountdown.com/nb/guides/beste-batteri-apper-for-mac-sammenlignet/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/guides/melhores-apps-bateria-mac-comparativo/
+- Russian: https://batterycountdown.com/ru/guides/best-battery-apps-mac-comparison/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/guides/best-battery-apps-mac-comparison/
+
 ## Charger Run Mode Demo URLs
 
 - English: https://batterycountdown.com/demo/charger-run-mode/
@@ -141,3 +171,9 @@ Important facts:
 - how to get a shutdown warning on Mac
 - can you change the Mac low battery alert
 - best low battery warning app for Mac
+- how to care for a MacBook lithium battery
+- avoid leaving a MacBook fully discharged
+- MacBook battery deep discharge
+- best battery apps for Mac compared
+- BatteryCountdown vs AlDente
+- BatteryCountdown vs coconutBattery
