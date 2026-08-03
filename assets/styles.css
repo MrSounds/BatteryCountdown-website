@@ -828,6 +828,82 @@ h3 {
   line-height: 1.55;
 }
 
+.blog-index {
+  display: grid;
+  gap: 34px;
+  max-width: 1080px;
+}
+
+.blog-featured {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 28px;
+  background: #e9f1ee;
+  border: 1px solid rgba(18, 22, 31, 0.1);
+  border-left: 4px solid var(--green);
+  border-radius: 8px;
+}
+
+.blog-featured h2,
+.blog-card h2 {
+  margin: 6px 0 10px;
+  font-size: 1.45rem;
+}
+
+.blog-featured h2 a,
+.blog-card h2 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.blog-featured p,
+.blog-card p,
+.blog-index-heading p {
+  color: var(--muted);
+}
+
+.blog-featured .button {
+  flex: 0 0 auto;
+}
+
+.blog-card-tag {
+  margin: 0;
+  color: var(--green);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.blog-index-heading {
+  max-width: 720px;
+}
+
+.blog-index-heading h2 {
+  margin-bottom: 8px;
+  font-size: 2rem;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.blog-card {
+  min-width: 0;
+  padding: 22px;
+  background: var(--paper);
+  border: 1px solid rgba(18, 22, 31, 0.1);
+  border-radius: 8px;
+}
+
+.blog-card:hover {
+  border-color: rgba(31, 132, 97, 0.35);
+  box-shadow: 0 14px 34px rgba(18, 22, 31, 0.08);
+}
+
 .final-cta {
   text-align: center;
   background: #fff;
@@ -1018,12 +1094,18 @@ h3 {
   .support-grid,
   .faq-mini,
   .guide-link-grid,
+  .blog-grid,
   .split-section,
   .maker-shell,
   .charger-layout,
   .home-preview-section,
   .demo-section {
     grid-template-columns: 1fr;
+  }
+
+  .blog-featured {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .mock-menubar {

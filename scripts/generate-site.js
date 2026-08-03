@@ -17,6 +17,7 @@ const {
   extraGuideCommon,
   extraGuideContent
 } = require("./seo-guide-content");
+const { blogContent } = require("./blog-content");
 
 const locales = [
   { code: "en", prefix: "", hreflang: "en", htmlLang: "en", name: "English", native: "English", guideSlug: "change-low-battery-warning-percentage-mac" },
@@ -35,7 +36,7 @@ const locales = [
 
 const localeByCode = Object.fromEntries(locales.map((locale) => [locale.code, locale]));
 const guidePageKeys = ["guide", ...extraGuidePageKeys];
-const pageKeys = ["home", "faq", "support", ...guidePageKeys, "demo"];
+const pageKeys = ["home", "blog", "faq", "support", ...guidePageKeys, "demo"];
 
 const t = {
   en: {
@@ -2156,6 +2157,7 @@ function guideSlug(locale, pageKey) {
 function pagePath(locale, pageKey) {
   const root = locale.prefix ? `/${locale.prefix}` : "";
   if (pageKey === "home") return `${root || ""}/`;
+  if (pageKey === "blog") return `${root}/blog/`;
   if (pageKey === "faq") return `${root}/faq/`;
   if (pageKey === "support") return `${root}/support/`;
   if (isGuidePage(pageKey)) return `${root}/guides/${guideSlug(locale, pageKey)}/`;
@@ -2190,8 +2192,12 @@ function alternateLinks(pageKey) {
 
 function nav(locale, pageKey) {
   const c = t[locale.code] || t[locale.prefix] || t.en;
+  const blog = blogCopy(locale);
   const link = (key, label, href) => {
-    const cls = pageKey === key || (key === "guide" && isGuidePage(pageKey)) ? ` class="current"` : "";
+    const isCurrent = pageKey === key
+      || (key === "guide" && pageKey === "guide")
+      || (key === "blog" && extraGuidePageKeys.includes(pageKey));
+    const cls = isCurrent ? ` class="current"` : "";
     return `<a${cls} href="${h(href)}">${h(label)}</a>`;
   };
   return `<header class="site-header">
@@ -2202,6 +2208,7 @@ function nav(locale, pageKey) {
         </a>
         <div class="nav-links">
           ${link("guide", c.nav.guide, pagePath(locale, "guide"))}
+          ${link("blog", blog.navLabel, pagePath(locale, "blog"))}
           ${link("faq", c.nav.faq, pagePath(locale, "faq"))}
           ${link("support", c.nav.support, pagePath(locale, "support"))}
           <a class="nav-cta" href="${APP_STORE_URL}">${h(c.nav.appStore)}</a>
@@ -2212,6 +2219,7 @@ function nav(locale, pageKey) {
 
 function footer(locale, pageKey) {
   const c = t[locale.code] || t[locale.prefix] || t.en;
+  const blog = blogCopy(locale);
   const languageLinks = locales.map((candidate) => {
     const current = candidate.code === locale.code ? ` class="current"` : "";
     return `<a${current} lang="${h(candidate.htmlLang)}" hreflang="${h(candidate.hreflang)}" href="${h(pagePath(candidate, pageKey))}">${h(candidate.native)}</a>`;
@@ -2233,6 +2241,7 @@ function footer(locale, pageKey) {
         <div class="footer-links">
           <a href="${h(pagePath(locale, "demo"))}">${h(demoCopy(locale).navLabel)}</a>
           <a href="${h(pagePath(locale, "guide"))}">${h(c.nav.guide)}</a>
+          <a href="${h(pagePath(locale, "blog"))}">${h(blog.navLabel)}</a>
           <a href="${h(pagePath(locale, "faq"))}">${h(c.nav.faq)}</a>
           <a href="${h(pagePath(locale, "support"))}">${h(c.nav.support)}</a>
           <a href="${SUPPORT_MAILTO}">${h(c.footer.email)}</a>
@@ -2349,7 +2358,10 @@ function breadcrumbGraph(locale, pageKey, pageName) {
   const items = [
     { "@type": "ListItem", "position": 1, "name": APP_NAME, "item": abs(pagePath(locale, "home")) }
   ];
-  if (pageKey !== "home") {
+  if (extraGuidePageKeys.includes(pageKey)) {
+    items.push({ "@type": "ListItem", "position": 2, "name": blogCopy(locale).navLabel, "item": abs(pagePath(locale, "blog")) });
+    items.push({ "@type": "ListItem", "position": 3, "name": pageName, "item": abs(pagePath(locale, pageKey)) });
+  } else if (pageKey !== "home") {
     items.push({ "@type": "ListItem", "position": 2, "name": pageName, "item": abs(pagePath(locale, pageKey)) });
   }
   return {
@@ -2745,6 +2757,82 @@ function relatedGuideCards(locale, activePageKey) {
         </section>`;
 }
 
+function blogCopy(locale) {
+  return blogContent[locale.code] || blogContent[locale.prefix] || blogContent.en;
+}
+
+function renderBlog(locale) {
+  const c = t[locale.code] || t[locale.prefix] || t.en;
+  const page = blogCopy(locale);
+  const featured = guideCopy(locale, "guide");
+  const articleKeys = [...extraGuidePageKeys].reverse();
+  const articleCards = articleKeys.map((pageKey) => {
+    const article = guideCopy(locale, pageKey);
+    return `<article class="blog-card">
+            <p class="blog-card-tag">${h(page.categories[pageKey])}</p>
+            <h2><a href="${h(pagePath(locale, pageKey))}">${h(article.linkTitle || article.h1)}</a></h2>
+            <p>${h(article.linkDescription || article.description)}</p>
+          </article>`;
+  }).join("\n          ");
+  const route = pagePath(locale, "blog");
+  const body = `<main id="main" class="subpage">
+      <section class="page-hero" aria-labelledby="blog-title">
+        <div class="section-shell narrow">
+          <p class="eyebrow">${h(page.eyebrow)}</p>
+          <h1 id="blog-title">${h(page.h1)}</h1>
+          <p class="lead">${h(page.lead)}</p>
+        </div>
+      </section>
+      <section class="section-shell blog-index" aria-labelledby="blog-articles-title">
+        <article class="blog-featured">
+          <div>
+            <p class="blog-card-tag">${h(page.featuredLabel)}</p>
+            <h2><a href="${h(pagePath(locale, "guide"))}">${h(featured.linkTitle || featured.h1)}</a></h2>
+            <p>${h(featured.linkDescription || featured.description)}</p>
+          </div>
+          <a class="button button-secondary" href="${h(pagePath(locale, "guide"))}">${h(c.cta.readGuide)}</a>
+        </article>
+        <div class="blog-index-heading">
+          <h2 id="blog-articles-title">${h(page.articlesTitle)}</h2>
+          <p>${h(page.articlesIntro)}</p>
+        </div>
+        <div class="blog-grid">
+          ${articleCards}
+        </div>
+      </section>
+    </main>`;
+  const itemList = articleKeys.map((pageKey, index) => {
+    const article = guideCopy(locale, pageKey);
+    return {
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": article.linkTitle || article.h1,
+      "url": abs(pagePath(locale, pageKey))
+    };
+  });
+  const graph = [
+    {
+      "@type": ["CollectionPage", "Blog"],
+      "@id": `${abs(route)}#webpage`,
+      "url": abs(route),
+      "name": page.title,
+      "description": page.description,
+      "isPartOf": { "@id": `${SITE_URL}/#website` },
+      "mainEntity": { "@id": `${abs(route)}#articles` },
+      "inLanguage": locale.hreflang
+    },
+    {
+      "@type": "ItemList",
+      "@id": `${abs(route)}#articles`,
+      "name": page.articlesTitle,
+      "numberOfItems": itemList.length,
+      "itemListElement": itemList
+    },
+    breadcrumbGraph(locale, "blog", page.navLabel)
+  ];
+  return layout(locale, "blog", { title: page.title, description: page.description, ogDescription: page.ogDescription }, body, graph);
+}
+
 function renderGuide(locale, pageKey = "guide") {
   const c = t[locale.code] || t[locale.prefix] || t.en;
   const page = guideCopy(locale, pageKey);
@@ -2879,6 +2967,7 @@ ${page.sources?.length ? `        <section aria-labelledby="guide-sources">
 
 function renderPage(locale, pageKey) {
   if (pageKey === "home") return renderHome(locale);
+  if (pageKey === "blog") return renderBlog(locale);
   if (pageKey === "faq") return renderFaq(locale);
   if (pageKey === "support") return renderSupport(locale);
   if (isGuidePage(pageKey)) return renderGuide(locale, pageKey);
@@ -2900,7 +2989,9 @@ function renderSitemap() {
         return `    <xhtml:link rel="alternate" hreflang="${h(candidate.hreflang)}" href="${h(abs(pagePath(candidate, pageKey)))}" />`;
       });
       alternates.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${h(abs(pagePath(localeByCode.en, pageKey)))}" />`);
-      const lastmod = isGuidePage(pageKey) ? (guideCopy(locale, pageKey).dateModified || LASTMOD) : LASTMOD;
+      const lastmod = isGuidePage(pageKey)
+        ? (guideCopy(locale, pageKey).dateModified || LASTMOD)
+        : (pageKey === "blog" ? "2026-08-03" : LASTMOD);
       entries.push(`  <url>
     <loc>${h(abs(route))}</loc>
 ${alternates.join("\n")}
@@ -2923,6 +3014,7 @@ function renderLlms() {
     return `### ${title}\n\n${rows}`;
   }).join("\n\n");
   const demoRows = locales.map((locale) => `- ${locale.name}: ${abs(pagePath(locale, "demo"))}`).join("\n");
+  const blogRows = locales.map((locale) => `- ${locale.name}: ${abs(pagePath(locale, "blog"))}`).join("\n");
   return `# BatteryCountdown
 
 > BatteryCountdown is a macOS menu bar utility that shows a live countdown before low battery may shut down your Mac.
@@ -2944,6 +3036,7 @@ ${languageRows}
 ## Core Pages
 
 - Home pages: product overview for BatteryCountdown and low battery shutdown warning on Mac.
+- Blog pages: localized article indexes for Mac battery troubleshooting, care, comparisons, and app guidance.
 - FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - Support pages: contact details for BatteryCountdown support.
 - Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, comparing popular Mac battery apps, choosing a low battery warning app, and caring for a MacBook lithium-ion battery.
@@ -2952,6 +3045,10 @@ ${languageRows}
 ## Guide URLs
 
 ${guideRows}
+
+## Blog URLs
+
+${blogRows}
 
 ## Charger Run Mode Demo URLs
 
@@ -3003,6 +3100,7 @@ The site is generated into static HTML for 12 locales:
 Each locale includes:
 
 - Home
+- Blog index for all articles beyond the featured low battery percentage guide
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac

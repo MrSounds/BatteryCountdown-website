@@ -30,6 +30,7 @@ Important facts:
 ## Core Pages
 
 - Home pages: product overview for BatteryCountdown and low battery shutdown warning on Mac.
+- Blog pages: localized article indexes for Mac battery troubleshooting, care, comparisons, and app guidance.
 - FAQ pages: answers about low battery warning timing, shutdown warnings, CPU usage, privacy, charging estimates, and Charger Run Mode.
 - Support pages: contact details for BatteryCountdown support.
 - Guide pages: answer-first guides about changing Mac low battery warning behavior, missing MacBook low battery warnings, shutdown warnings, comparing popular Mac battery apps, choosing a low battery warning app, and caring for a MacBook lithium-ion battery.
@@ -141,6 +142,21 @@ Important facts:
 - Portuguese Brazil: https://batterycountdown.com/pt-br/guides/melhores-apps-bateria-mac-comparativo/
 - Russian: https://batterycountdown.com/ru/guides/best-battery-apps-mac-comparison/
 - Chinese Simplified: https://batterycountdown.com/zh-hans/guides/best-battery-apps-mac-comparison/
+
+## Blog URLs
+
+- English: https://batterycountdown.com/blog/
+- German: https://batterycountdown.com/de/blog/
+- Spanish: https://batterycountdown.com/es/blog/
+- French: https://batterycountdown.com/fr/blog/
+- Hindi: https://batterycountdown.com/hi/blog/
+- Italian: https://batterycountdown.com/it/blog/
+- Japanese: https://batterycountdown.com/ja/blog/
+- Korean: https://batterycountdown.com/ko/blog/
+- Norwegian Bokmal: https://batterycountdown.com/nb/blog/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/blog/
+- Russian: https://batterycountdown.com/ru/blog/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/blog/
 
 ## Charger Run Mode Demo URLs
 

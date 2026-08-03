@@ -12,6 +12,7 @@ The site is generated into static HTML for 12 locales:
 Each locale includes:
 
 - Home
+- Blog index for all articles beyond the featured low battery percentage guide
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac
