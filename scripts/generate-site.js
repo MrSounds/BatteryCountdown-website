@@ -2282,7 +2282,7 @@ function layout(locale, pageKey, meta, body, graph) {
     <meta name="twitter:title" content="${h(ogTitle)}">
     <meta name="twitter:description" content="${h(ogDescription)}">
     <meta name="twitter:image" content="${h(abs("/assets/app-icon.png"))}">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260803">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260803-2">
     ${jsonLd({ "@context": "https://schema.org", "@graph": graph })}
   </head>
   <body>
