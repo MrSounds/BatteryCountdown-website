@@ -8,6 +8,7 @@ Important facts:
 - BatteryCountdown is for macOS.
 - The app shows a live countdown in the menu bar when battery is low.
 - Users can choose the battery percentage where the countdown starts.
+- Users can replace the idle app icon with the current battery percentage and read it without clicking; the active low battery countdown takes priority.
 - The app is local-only and does not require an account.
 - Support email: request@lyder.no.
 - App Store link: https://apps.apple.com/app/id6762373837?mt=12.
@@ -142,6 +143,21 @@ Important facts:
 - Portuguese Brazil: https://batterycountdown.com/pt-br/guides/melhores-apps-bateria-mac-comparativo/
 - Russian: https://batterycountdown.com/ru/guides/best-battery-apps-mac-comparison/
 - Chinese Simplified: https://batterycountdown.com/zh-hans/guides/best-battery-apps-mac-comparison/
+
+### See your Mac battery percentage without clicking
+
+- English: https://batterycountdown.com/blog/show-battery-percentage-mac-menu-bar/
+- German: https://batterycountdown.com/de/blog/batterieprozent-mac-menueleiste-anzeigen/
+- Spanish: https://batterycountdown.com/es/blog/mostrar-porcentaje-bateria-barra-menus-mac/
+- French: https://batterycountdown.com/fr/blog/afficher-pourcentage-batterie-barre-menus-mac/
+- Hindi: https://batterycountdown.com/hi/blog/show-battery-percentage-mac-menu-bar/
+- Italian: https://batterycountdown.com/it/blog/mostrare-percentuale-batteria-barra-menu-mac/
+- Japanese: https://batterycountdown.com/ja/blog/show-battery-percentage-mac-menu-bar/
+- Korean: https://batterycountdown.com/ko/blog/show-battery-percentage-mac-menu-bar/
+- Norwegian Bokmal: https://batterycountdown.com/nb/blog/vis-batteriprosent-menylinjen-mac/
+- Portuguese Brazil: https://batterycountdown.com/pt-br/blog/mostrar-porcentagem-bateria-barra-menus-mac/
+- Russian: https://batterycountdown.com/ru/blog/show-battery-percentage-mac-menu-bar/
+- Chinese Simplified: https://batterycountdown.com/zh-hans/blog/show-battery-percentage-mac-menu-bar/
 
 ## Blog URLs
 

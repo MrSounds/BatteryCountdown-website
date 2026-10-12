@@ -13,6 +13,7 @@ Each locale includes:
 
 - Home
 - Blog index for all articles beyond the featured low battery percentage guide
+- Blog post: show battery percentage in the Mac menu bar without clicking
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac

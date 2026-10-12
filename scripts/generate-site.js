@@ -10,6 +10,7 @@ const APP_STORE_URL = "https://apps.apple.com/app/id6762373837?mt=12";
 const SUPPORT_EMAIL = "request@lyder.no";
 const SUPPORT_MAILTO = "mailto:request@lyder.no?subject=BatteryCountdown%20Support%20Request";
 const LASTMOD = "2026-06-01";
+const PERCENTAGE_LASTMOD = "2026-10-12";
 
 const {
   extraGuidePageKeys,
@@ -18,6 +19,7 @@ const {
   extraGuideContent
 } = require("./seo-guide-content");
 const { blogContent } = require("./blog-content");
+const { percentagePageKey, percentageHome } = require("./menu-bar-percentage-content");
 
 const locales = [
   { code: "en", prefix: "", hreflang: "en", htmlLang: "en", name: "English", native: "English", guideSlug: "change-low-battery-warning-percentage-mac" },
@@ -2160,6 +2162,7 @@ function pagePath(locale, pageKey) {
   if (pageKey === "blog") return `${root}/blog/`;
   if (pageKey === "faq") return `${root}/faq/`;
   if (pageKey === "support") return `${root}/support/`;
+  if (pageKey === percentagePageKey) return `${root}/blog/${guideSlug(locale, pageKey)}/`;
   if (isGuidePage(pageKey)) return `${root}/guides/${guideSlug(locale, pageKey)}/`;
   if (pageKey === "demo") return `${root}/demo/charger-run-mode/`;
   throw new Error(`Unknown page key ${pageKey}`);
@@ -2282,7 +2285,7 @@ function layout(locale, pageKey, meta, body, graph) {
     <meta name="twitter:title" content="${h(ogTitle)}">
     <meta name="twitter:description" content="${h(ogDescription)}">
     <meta name="twitter:image" content="${h(abs("/assets/app-icon.png"))}">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260803-2">
+    <link rel="stylesheet" href="/assets/styles.css?v=20261012-1">
     ${jsonLd({ "@context": "https://schema.org", "@graph": graph })}
   </head>
   <body>
@@ -2416,6 +2419,16 @@ function renderHome(locale) {
             <p>${h(page.popoverText)}</p>
           </div>
         </div>
+      </section>
+
+      <section class="section-shell percentage-section" aria-labelledby="percentage-title">
+        <div class="percentage-copy">
+          <p class="eyebrow">${h(percentageCopy(locale).eyebrow)}</p>
+          <h2 id="percentage-title">${h(percentageCopy(locale).title)}</h2>
+          <p>${h(percentageCopy(locale).body)}</p>
+          <a class="text-link" href="${h(pagePath(locale, percentagePageKey))}">${h(percentageCopy(locale).link)}</a>
+        </div>
+        ${renderPercentagePreview(locale)}
       </section>
 
       <section class="section-shell home-preview-section" aria-labelledby="home-preview-title">
@@ -2761,6 +2774,29 @@ function blogCopy(locale) {
   return blogContent[locale.code] || blogContent[locale.prefix] || blogContent.en;
 }
 
+function percentageCopy(locale) {
+  const copy = percentageHome[locale.code];
+  if (!copy) throw new Error(`Missing percentage copy for ${locale.code}`);
+  return copy;
+}
+
+function renderPercentagePreview(locale) {
+  const copy = percentageCopy(locale);
+  return `<figure class="percentage-preview">
+          <div class="percentage-menubar">
+            <span aria-hidden="true">&#63743;</span>
+            <span class="percentage-finder">Finder</span>
+            <span class="percentage-status">
+              <span class="percentage-app-name">BatteryCountdown</span>
+              <strong>78%</strong>
+            </span>
+            <span class="percentage-clock" aria-hidden="true">9:41</span>
+          </div>
+          <div class="percentage-setting"><span aria-hidden="true">✓</span><span>${h(copy.settingLabel)}</span></div>
+          <figcaption>${h(copy.caption)}</figcaption>
+        </figure>`;
+}
+
 function renderBlog(locale) {
   const c = t[locale.code] || t[locale.prefix] || t.en;
   const page = blogCopy(locale);
@@ -2859,6 +2895,7 @@ function renderGuide(locale, pageKey = "guide") {
           <h2 id="answer">${h(page.answerTitle)}</h2>
           ${page.answerParagraphs.map((p) => `<p>${h(p)}</p>`).join("\n          ")}
         </section>
+${pageKey === percentagePageKey ? `        ${renderPercentagePreview(locale)}\n` : ""}
 ${page.comparisonRows?.length ? `        <section aria-labelledby="comparison-title">
           <h2 id="comparison-title">${h(page.comparisonTitle)}</h2>
           <p>${h(page.comparisonIntro)}</p>
@@ -2918,7 +2955,7 @@ ${page.sources?.length ? `        <section aria-labelledby="guide-sources">
     </main>`;
   const graph = [
     {
-      "@type": "TechArticle",
+      "@type": pageKey === percentagePageKey ? "BlogPosting" : "TechArticle",
       "@id": `${abs(route)}#article`,
       "headline": page.h1,
       "description": page.description,
@@ -2991,7 +3028,7 @@ function renderSitemap() {
       alternates.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${h(abs(pagePath(localeByCode.en, pageKey)))}" />`);
       const lastmod = isGuidePage(pageKey)
         ? (guideCopy(locale, pageKey).dateModified || LASTMOD)
-        : (pageKey === "blog" ? "2026-08-03" : LASTMOD);
+        : (["home", "blog", "faq"].includes(pageKey) ? PERCENTAGE_LASTMOD : LASTMOD);
       entries.push(`  <url>
     <loc>${h(abs(route))}</loc>
 ${alternates.join("\n")}
@@ -3025,6 +3062,7 @@ Important facts:
 - BatteryCountdown is for macOS.
 - The app shows a live countdown in the menu bar when battery is low.
 - Users can choose the battery percentage where the countdown starts.
+- Users can replace the idle app icon with the current battery percentage and read it without clicking; the active low battery countdown takes priority.
 - The app is local-only and does not require an account.
 - Support email: request@lyder.no.
 - App Store link: ${APP_STORE_URL}.
@@ -3101,6 +3139,7 @@ Each locale includes:
 
 - Home
 - Blog index for all articles beyond the featured low battery percentage guide
+- Blog post: show battery percentage in the Mac menu bar without clicking
 - FAQ
 - Support
 - Guide: low battery warning percentage on Mac
@@ -3156,6 +3195,13 @@ function cleanGeneratedLocaleDirs() {
 }
 
 function main() {
+  for (const locale of locales) {
+    const copy = percentageCopy(locale);
+    const content = t[locale.code];
+    content.home.features[1] = ["02", copy.featureTitle, copy.featureBody];
+    content.faq.qas.splice(4, 0, [copy.faqQ, copy.faqA]);
+    blogCopy(locale).categories[percentagePageKey] = copy.featureTitle;
+  }
   cleanGeneratedLocaleDirs();
   for (const locale of locales) {
     for (const pageKey of pageKeys) {
