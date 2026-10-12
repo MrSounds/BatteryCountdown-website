@@ -33,7 +33,7 @@
     <meta name="twitter:title" content="Предупреждение о низком заряде Mac | BatteryCountdown">
     <meta name="twitter:description" content="Смотрите прямо в строке меню, сколько времени осталось до выключения Mac из-за низкого заряда.">
     <meta name="twitter:image" content="https://batterycountdown.com/assets/app-icon.png">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260803-2">
+    <link rel="stylesheet" href="/assets/styles.css?v=20261012-1">
     <script type="application/ld+json">
 {
         "@context": "https://schema.org",
@@ -86,7 +86,7 @@
                         ],
                         "featureList": [
                                 "Выберите уровень батареи для запуска отсчета от 1% до 20%.",
-                                "BatteryCountdown превращает низкий заряд в живую оценку оставшегося времени.",
+                                "Узнавайте заряд прямо в строке меню. Функция входит в основное приложение и не требует отдельной покупки Charger Run.",
                                 "Увидьте предупреждение, сохраните работу и подключите зарядку до внезапного выключения."
                         ],
                         "publisher": {
@@ -183,6 +183,28 @@
         </div>
       </section>
 
+      <section class="section-shell percentage-section" aria-labelledby="percentage-title">
+        <div class="percentage-copy">
+          <p class="eyebrow">Заряд с первого взгляда</p>
+          <h2 id="percentage-title">Процент заряда. Без нажатий.</h2>
+          <p>Выберите отображение процента: при обычной работе он заменяет значок BatteryCountdown и показывает текущий заряд. При низком заряде приложение переходит к обратному отсчёту.</p>
+          <a class="text-link" href="/ru/blog/show-battery-percentage-mac-menu-bar/">Как включить отображение процента</a>
+        </div>
+        <figure class="percentage-preview">
+          <div class="percentage-menubar">
+            <span aria-hidden="true">&#63743;</span>
+            <span class="percentage-finder">Finder</span>
+            <span class="percentage-status">
+              <span class="percentage-app-name">BatteryCountdown</span>
+              <strong>78%</strong>
+            </span>
+            <span class="percentage-clock" aria-hidden="true">9:41</span>
+          </div>
+          <div class="percentage-setting"><span aria-hidden="true">✓</span><span>Заменить значок в строке меню процентом заряда</span></div>
+          <figcaption>Настройте один раз и проверяйте заряд в строке меню, не открывая меню приложения.</figcaption>
+        </figure>
+      </section>
+
       <section class="section-shell home-preview-section" aria-labelledby="home-preview-title">
         <div class="home-preview-copy">
           <p class="eyebrow">Посмотрите в действии</p>
@@ -221,8 +243,8 @@
         </article>
         <article class="feature-card">
           <span class="feature-icon">02</span>
-          <h3>Видеть время, а не только процент</h3>
-          <p>BatteryCountdown превращает низкий заряд в живую оценку оставшегося времени.</p>
+          <h3>Процент заряда по желанию</h3>
+          <p>Узнавайте заряд прямо в строке меню. Функция входит в основное приложение и не требует отдельной покупки Charger Run.</p>
         </article>
         <article class="feature-card">
           <span class="feature-icon">03</span>

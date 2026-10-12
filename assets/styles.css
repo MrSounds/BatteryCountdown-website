@@ -568,6 +568,95 @@ h3 {
   border-bottom: 1px solid rgba(18, 22, 31, 0.08);
 }
 
+.percentage-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 48px;
+}
+
+.percentage-copy h2 {
+  max-width: 18ch;
+}
+
+.percentage-copy > p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.percentage-preview {
+  min-width: 0;
+  margin: 0;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: linear-gradient(135deg, #edf6f1, #e8f0f8);
+}
+
+.percentage-menubar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  border: 1px solid rgba(18, 22, 31, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 24px rgba(18, 22, 31, 0.08);
+}
+
+.percentage-finder {
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.percentage-status {
+  display: grid;
+  gap: 2px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.percentage-app-name {
+  color: var(--muted);
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.percentage-status strong {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 2rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.percentage-clock {
+  font-size: 0.8rem;
+}
+
+.percentage-setting {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 24px 0 16px;
+  font-size: 0.95rem;
+}
+
+.percentage-setting > span:first-child {
+  display: grid;
+  place-items: center;
+  flex: 0 0 20px;
+  height: 20px;
+  margin-top: 2px;
+  border-radius: 5px;
+  color: white;
+  background: var(--green);
+  font-size: 0.85rem;
+}
+
+.percentage-preview figcaption {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .maker-shell {
   display: grid;
   grid-template-columns: minmax(0, 0.78fr) minmax(280px, 1.22fr);
@@ -1103,8 +1192,22 @@ h3 {
   .maker-shell,
   .charger-layout,
   .home-preview-section,
+  .percentage-section,
   .demo-section {
     grid-template-columns: 1fr;
+  }
+
+  .percentage-section {
+    gap: 24px;
+  }
+
+  .percentage-preview {
+    padding: 20px;
+  }
+
+  .percentage-menubar {
+    gap: 10px;
+    padding: 12px;
   }
 
   .blog-featured {

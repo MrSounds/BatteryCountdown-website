@@ -8,6 +8,11 @@ const {
   comparisonGuideSlugs,
   comparisonGuideContent
 } = require("./comparison-guide-content");
+const {
+  percentagePageKey,
+  percentageSlugs,
+  percentageContent
+} = require("./menu-bar-percentage-content");
 
 const extraGuidePageKeys = [
   "guideWarningNotShowing",
@@ -15,7 +20,8 @@ const extraGuidePageKeys = [
   "guideLowBatteryAlert",
   "guideBestApp",
   batteryCarePageKey,
-  comparisonGuidePageKey
+  comparisonGuidePageKey,
+  percentagePageKey
 ];
 
 const extraGuideSlugs = {
@@ -98,6 +104,9 @@ for (const [locale, slug] of Object.entries(batteryCareSlugs)) {
 }
 for (const [locale, slug] of Object.entries(comparisonGuideSlugs)) {
   extraGuideSlugs[locale][comparisonGuidePageKey] = slug;
+}
+for (const [locale, slug] of Object.entries(percentageSlugs)) {
+  extraGuideSlugs[locale][percentagePageKey] = slug;
 }
 
 extraGuideSlugs["pt-br"] = extraGuideSlugs["pt-BR"];
@@ -1222,6 +1231,9 @@ for (const [locale, content] of Object.entries(batteryCareContent)) {
 }
 for (const [locale, content] of Object.entries(comparisonGuideContent)) {
   extraGuideContent[locale][comparisonGuidePageKey] = content;
+}
+for (const [locale, content] of Object.entries(percentageContent)) {
+  extraGuideContent[locale][percentagePageKey] = content;
 }
 
 extraGuideContent["pt-br"] = extraGuideContent["pt-BR"];
